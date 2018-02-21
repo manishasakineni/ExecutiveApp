@@ -31,6 +31,10 @@ class InProgressViewController: UIViewController,UITableViewDataSource,UITableVi
     
     var userID : String = ""
     
+    var provinceId                  : Int? = nil
+    var districtId                  : Int? = nil
+    var mandalId                    : Int? = nil
+    
     var totalPages : Int? = 0
     
     var totalRecords : Int? = 0
@@ -415,6 +419,9 @@ class InProgressViewController: UIViewController,UITableViewDataSource,UITableVi
         cell.addBtn.layer.cornerRadius = 5
         cell.updateBtn.layer.cornerRadius = 5
         cell.reviewBtn.layer.cornerRadius = 5
+            
+        
+        
         
         
         if (agentDict.statusTypeId == 44) {
@@ -665,6 +672,10 @@ class InProgressViewController: UIViewController,UITableViewDataSource,UITableVi
         
         let requesrId = agentDetail.id
         
+        provinceId = agentDetail.provinceId
+        districtId = agentDetail.districtId
+        mandalId   = agentDetail.mandalId
+        
         UserDefaults.standard.set(requesrId, forKey: "AgentRequestId")
         UserDefaults.standard.synchronize()
         
@@ -697,6 +708,10 @@ class InProgressViewController: UIViewController,UITableViewDataSource,UITableVi
             newAgentVC?.villageID = vilageTypeId!
             newAgentVC?.selectedPostalCode = "\(postCode!)"
             newAgentVC?.landMarkStr = landMark
+            newAgentVC?.provinceID = provinceId!
+            newAgentVC?.districtID = districtId!
+            newAgentVC?.mandalID = mandalId!
+        
         
         
         

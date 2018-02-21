@@ -320,6 +320,38 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
             self.documentsBtn.isUserInteractionEnabled = true
             
             
+//            if selectedProvinceStr != ""{
+//                
+//                if (provinceIDArray.count > 0){
+//                    if let value = Int(provinceIDArray[0].id){
+//                        
+//                        provinceID = value
+//                    }
+//                }
+//            
+//            getDistrictsAPICall()
+//            
+//            }
+//            
+//            if selectedProvinceStr != ""{
+//                
+//                getDistrictsAPICall()
+//                
+//            }
+//            
+//            if selectedDistrictStr != ""{
+//                
+//                getMandalsAPICall()
+//                
+//            }
+//            
+//            if selectedMandalStr != ""{
+//                
+//                getVillagesAPICall()
+//                
+//            }
+            
+            
         }
         
     }
@@ -373,6 +405,11 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
                                 }
                                  
                                 self.gettitleTypeAPICall()
+                                
+                                self.getProvinceNamesAPICall()
+                                self.getDistrictsAPICall()
+                                self.getMandalsAPICall()
+                                self.getVillagesAPICall()
                             }
                             else {
                                 
@@ -469,6 +506,9 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
                                     self.isActiveUpdate      = (IDInfo?.IsActive)!
                                     self.idUpdate            = (IDInfo?.Id)!
                                     
+                                    self.provinceID          = (IDInfo?.ProvinceId)!
+                                    self.districtID          = (IDInfo?.DistrictId)!
+                                    self.mandalID          = (IDInfo?.MandalId)!
                                     self.villageID           = (IDInfo?.VillageId)!
                                     self.businessID          = (IDInfo?.BusinessCategoryTypeId)!
                                     self.titleTypeID         = (IDInfo?.TitleTypeId)!
@@ -488,6 +528,11 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
                                     self.titleArray.removeAll()
                                      
                                     self.gettitleTypeAPICall()
+                                    
+                                    self.getProvinceNamesAPICall()
+                                    self.getDistrictsAPICall()
+                                    self.getMandalsAPICall()
+                                    self.getVillagesAPICall()
                                     
                                     
                                 } else if(isActive == false) {
@@ -529,12 +574,19 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
             else {
                 
                 self.gettitleTypeAPICall()
+                self.getProvinceNamesAPICall()
+                self.getDistrictsAPICall()
+                self.getMandalsAPICall()
+                self.getVillagesAPICall()
                 
-                 
+                
+                
                 
              //   self.hideUpdateBtn = true
               //  mapTableViewCell.nextClicked.isHidden = false
             }
+            
+            
             
             
             
@@ -779,14 +831,15 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
                 
                 if(provinceNameModelArray.count > 0){
                     
-                 self.provinceIDArray = provinceNameModelArray
+                self.provinceIDArray = provinceNameModelArray
                 
                 for provinceName in provinceNameModelArray{
                 
                 self.provinceNamesAry.append(provinceName.name)
                     
                 
-                    }}
+                    }
+                }
  
             }
             else{
@@ -2065,6 +2118,14 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
         }
         
     }
+        
+        
+        else{
+        
+        
+        
+        
+        }
     
       //   activeTextField.resignFirstResponder()
          newRegTableview.reloadData()

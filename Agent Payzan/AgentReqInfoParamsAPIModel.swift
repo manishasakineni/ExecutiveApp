@@ -17,9 +17,13 @@ class AgentReqInfoParamsAPIModel: NSObject {
     let kAgentRequestCategoryName = "AgentRequestCategoryName"
     let kTitleType = "TitleType"
     let kCountryName = "CountryName"
+    let kProvinceId = "ProvinceId"
     let kProvinceName = "ProvinceName"
+    let kDistrictId = "DistrictId"
     let kDistrictName = "DistrictName"
+    let kMandalId = "MandalId"
     let kMandalName = "MandalName"
+    let kVillageId = "VillageId"
     let kVillageName = "VillageName"
     let kStatusTypeId = "StatusTypeId"
     let kStatusType = "StatusType"
@@ -40,7 +44,7 @@ class AgentReqInfoParamsAPIModel: NSObject {
     let kAddressLine1 = "AddressLine1"
     let kAddressLine2 = "AddressLine2"
     let kLandmark = "Landmark"
-    let kVillageId = "VillageId"
+  
     let kPostCode  = "PostCode"
     let kComments = "Comments"
     let kCreated = "Created"
@@ -85,6 +89,11 @@ class AgentReqInfoParamsAPIModel: NSObject {
     var pageSize                    : Int? = nil
     var totalPages                  : Int? = nil
     var totalRecords                : Int? = nil
+    var provinceId                  : Int? = nil
+    var districtId                  : Int? = nil
+    var mandalId                    : Int? = nil
+    
+    
     
     
     
@@ -488,6 +497,40 @@ class AgentReqInfoParamsAPIModel: NSObject {
                 }
                 
             }
+            
+            if Utilities.sharedInstance.isObjectNull("\(dict![kProvinceId])" as AnyObject?) {
+                
+                if let parameterString = dict![kProvinceId] as? Int{
+                    
+                    
+                    provinceId = parameterString
+                    
+                }
+                
+            }
+            
+            if Utilities.sharedInstance.isObjectNull("\(dict![kDistrictId])" as AnyObject?) {
+                
+                if let parameterString = dict![kDistrictId] as? Int{
+                    
+                    
+                    districtId = parameterString
+                    
+                }
+                
+            }
+            
+            if Utilities.sharedInstance.isObjectNull("\(dict![kMandalId])" as AnyObject?) {
+                
+                if let parameterString = dict![kMandalId] as? Int{
+                    
+                    
+                    mandalId = parameterString
+                    
+                }
+                
+            }
+
 
         
         }
