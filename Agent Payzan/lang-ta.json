@@ -1,0 +1,261 @@
+{
+    
+    
+    "TitleType": "தலைப்பு வகை",
+    "FirstName": "முதல் பெயர்",
+    "MiddleName": "மத்திய பெயர்",
+    "LastName": "கடைசி பெயர்",
+    "BusinessCategory": "வணிக வகை",
+    "UserName": "பயனர் பெயர்",
+    "Password": "கடவுச்சொல்",
+    "Gender": "பாலினம்",
+    "MobileNumber": "மொபைல் எண்",
+    "EmailId": "மின்னஞ்சல் முகவரி",
+    "Dateofbirth": "பிறந்த தேதி",
+    "Address1": "முகவரி 1",
+    "Address2": "முகவரி 2",
+    "LandMark": "நிலம் மார்க்",
+    "ProvinanceName": "பதவி பெயர்",
+    "DistrictName": "மாவட்ட பெயர்",
+    "MandalName": "மண்டல் பெயர்",
+    "VillageName": "கிராம பெயர்",
+    "PostalCode": "அஞ்சல் குறியீடு",
+    
+    
+    
+    "app": {
+        
+        "Loading..." : "ஏற்றுதல்...",
+        "Login": "உள் நுழை",
+        "MobileNumber": "மொபைல் எண்",
+        "Password": "கடவுச்சொல்",
+        "ChooseLanguage": "மொழியைத் தேர்வு செய்க",
+        "AgentRequests": "முகவர் கோரிக்கைகள்",
+        "Yettogo": "இன்னும் செல்ல",
+        "UnVerified": "சரிபார்க்கப்படாத",
+        "Verified": "சரிபார்க்கப்பட்ட",
+        "NewAgent": "புதிய முகவர்",
+        "Pick/HoldAgent": "முகவர் / எடு",
+        "InProgress": "முன்னேற்றம்",
+        "ApprovedAgents": "அங்கீகரிக்கப்பட்ட முகவர்கள்",
+        "Home": "முகப்பு",
+        "AgentRequest": "முகவர் கோரிக்கை",
+        "Logout": "வெளியேறு",
+        "NewAgentRegistration": "புதிய முகவர் பதிவு",
+        "Personal": "தனிநபர்",
+        "Bank": "வங்கி",
+        "IDProofs": "ஐடி ஆதாரம்",
+        "Documents": "ஆவணங்கள்",
+        "BankDetails": "வங்கி விவரங்கள்",
+        "AccountHolderName": "கணக்கு வைத்திருப்பவரின் பெயர்",
+        "AccountNumber": "கணக்கு எண்",
+        "BankName": "வங்கி பெயர்",
+        "BranchName": "கிளை பெயர்",
+        "SWIFTCode": "SWIFT கோட்",
+        
+        "Update": "புதுப்பிக்கப்பட்டது",
+        "Next": "அடுத்த",
+        "IdentityProofs": "அடையாள சான்றுகள்",
+        "PersonalIdentityProof": "தனிப்பட்ட அடையாள சான்று",
+        
+        "FinancialIdentityProof": "நிதி அடையாள சான்று",
+        "Name": "பெயர்",
+        "Number": "எண்",
+        "Add": "கூட்டு",
+        
+        "AggrementDocuments": "ஒப்பந்தம் ஆவணங்கள்",
+        "AddDocuments": "ஆவணங்களைச் சேர்",
+        "UploadDocuments": "ஆவணங்கள் பதிவேற்றவும்",
+        "Finish": "பினிஷ்",
+        "AgentHistory" : "முகவர் வரலாறு",
+        "Alert": "எச்சரிக்கை",
+        "YoursessionhasbeentimedoutPleaseloginagain": "உங்கள் அமர்வு முடிந்துவிட்டது. மீண்டும் உள்நுழைக",
+        "Warning": "எச்சரிக்கை",
+        "Servererror": "சேவையகப் பிழை",
+        "Therequesttimeout": "கோரிக்கை நேரம் முடிந்தது",
+        "PleaseCheckInternet": "இணையத்தை சரிபார்க்கவும்",
+        "Pleasecheckyourinternetconnection!": "உங்கள் இணைய இணைப்பு சரிபார்க்கவும்!",
+        
+        "Therequesttimedout": "கோரிக்கை நேரம் முடிந்தது",
+        
+        
+        "PleaseselecttitleType": "தலைப்பு வகை தேர்ந்தெடுக்கவும்",
+        
+        "Pleaseselectpersonalidentityprooftype": "தனிப்பட்ட அடையாள ஆதார வகை என்பதைத் தேர்ந்தெடுக்கவும்",
+        
+        "Pleaseenterpersonalidentityproofnumber": "தனிப்பட்ட அடையாள சான்று எண்ணை உள்ளிடுக",
+        
+        "Pleaseselectfinancialidentityprooftype": "நிதி அடையாள ஆதார வகை தேர்ந்தெடுக்கவும்",
+        
+        "PleaseenterfinancialidentityproofNumber": "நிதி அடையாள சான்று எண் உள்ளிடவும்",
+        
+        "Pleaseselectbussinesscategory": "தயவுசெய்து வணிக வகை தேர்ந்தெடுக்கவும்",
+        
+        "Pleaseprovideusername": "பயனர்பெயரை வழங்கவும்",
+        
+        
+        "Pleaseselectgender": "தயவுசெய்து பாலினத்தைத் தேர்ந்தெடுக்கவும்",
+        
+        "Pleaseprovidecurrentlocation": "தற்போதைய இருப்பிடத்தை வழங்கவும்",
+        
+        "Pleaseselectyourprovince": "மாகாணத்தைத் தேர்ந்தெடுக்கவும்",
+        
+        "Pleaseselectyourdistrict": "மாவட்டத்தைத் தேர்ந்தெடுக்கவும்",
+        
+        "Pleaseselectyourmandal": "தயவு செய்து மண்டலை தேர்ந்தெடுக்கவும்",
+        
+        "Pleaseselectyourvillage": "கிராமத்தைத் தேர்ந்தெடுக்கவும்",
+        
+        "Pleaseprovideyouraddress1": "தயவுசெய்து முகவரி 1 ஐ வழங்கவும்",
+        
+        "Pleaseprovideyouraddress2": "முகவரி 2 ஐ வழங்கவும்",
+        
+        "Pleaseprovideyourlandmark": "அடையாளத்தை வழங்கவும்",
+        
+        "Pleaseprovideyourcomments": "கருத்துக்களை வழங்கவும்",
+        
+        "Pleaseprovidevalidemailid": "சரியான மின்னஞ்சல் ஐடியை வழங்கவும்",
+        
+        "Pleaseprovideemailid": "மின்னஞ்சல் ஐடியை வழங்கவும்",
+        
+        "Pleaseprovidepassword": "கடவுச்சொல்லை வழங்கவும்",
+        
+        "Pleaseenterwalletamount": "பணப்பை அளவு உள்ளிடவும்",
+        
+        "Passwordshouldbeofminimum5character": "கடவுச்சொல் குறைந்தபட்சம் 5 எழுத்துகள் இருக்க வேண்டும்",
+        
+        "Pleaseprovideyourfirstname": "முதல் பெயரை வழங்கவும்",
+        
+        "Pleaseprovideyourlastname": "கடைசி பெயரை வழங்கவும்",
+        
+        "Pleaseprovideyourmobilenumber": "மொபைல் எண்ணை வழங்கவும்",
+        
+        "Pleaseprovide10digitsmobilenumber": "10 இலக்க எண்ணை வழங்கவும்",
+        
+        "Pleaseconfirmpassword": "கடவுச்சொல்லை உறுதிப்படுத்துக",
+        
+        "Passwordmissmatch": "கடவுச்சொல் மிஸ் பொருத்தம்",
+        
+        "Pleaseprovidedateofbirth": "பிறந்த தேதியை வழங்கவும்",
+        
+        "NetworkiseitherslowornotConnected": "நெட்வொர்க் மெதுவாக அல்லது இணைக்கப்படவில்லை",
+        
+        "Invalidusernameorpassword": "தவறான பயனர் பெயர் அல்லது கடவுச்சொல்",
+        
+        "SomeErrorOccured": "சில பிழை ஏற்பட்டது",
+        
+        "SuccessfullyDone": "வெற்றிகரமாக முடிந்தது",
+        
+        "PleaseEnterValidPin": "செல்லுபடியாகும் பின்னை உள்ளிடுக",
+        
+        "PleaseEnterValidInformation": "செல்லுபடியாகும் தகவலை உள்ளிடுக",
+        
+        
+        "Passwordsmusthaveatleastonenonalphanumericcharacter": "கடவுச்சொற்களை குறைந்தபட்சம் ஒரு எண்ணெழுத்து எழுத்துக்குறி இருக்க வேண்டும்",
+        
+        "Passwordsmusthaveatleastoneuppercase('A'-'Z')": "கடவுச்சொற்களை குறைந்தபட்சம் ஒரு பெரிய எழுத்தாக ('A' - 'Z') கொண்டிருக்க வேண்டும்",
+        
+        "Passwordsmusthaveatleastonedigit('0'-'9')": "கடவுச்சொற்களில் குறைந்தது ஒரு இலக்கத்தை ('0' - '9') கொண்டிருக்க வேண்டும்",
+        
+        "PasswordMustbebetween4to30Characters": "குறைந்தது 8 எழுத்துகள் உள்ளிடுக",
+        
+        "Emailshouldbeofminimum4character": "குறைந்தது 5 எழுத்துகள் உள்ளிடுக",
+        
+        "Mobilenumbershouldstartwith('7'-'9')": "மொபிலெம்பம்பர் ('7' - '9') தொடங்க வேண்டும்",
+        
+        "InvalidUsernameorPassword": "தவறான பயனர்பெயர் அல்லது கடவுச்சொல்",
+        
+        
+        
+        "Status:": "நிலைமை:",
+        "AssignTo:": "ஒதுக்கு",
+        "Comment:": "கருத்து:",
+        "CreatedDate:": "உருவாக்கப்பட்டது தேதி:",
+        
+        "Hold": "பிடி",
+        "PickUp": "அழைத்து",
+        
+        
+        
+        "ConvertAsAgent": "முகவர் என மாற்றவும்",
+        "Review": "விமர்சனம்",
+        
+        
+        "CurrentLocation": "தற்போதைய இடம்",
+        "LocationonMap": "வரைபடத்தில் இடம்",
+        "Cancel": "ரத்து",
+        "Recharge": "புதுப்பிக்கப்பட்டது",
+        
+        
+        
+        "Message": "செய்தி",
+        "Pleaseenterrequiredfields" : "தேவையான புலங்களை உள்ளிடுக",
+        "Pleaseenteryourmobilenumberoremail": "மொபைல் எண்ணை உள்ளிடவும்",
+        "Pleaseenteryourpassword": "தங்கள் கடவு சொல்லை பதிவு செய்யவும்",
+        "Worning": "Worning",
+        "Mobilenumbershouldbe10digits": "10 இலக்க எண்ணை உள்ளிடுக",
+        "NoRecordsFound": "எந்த பதிவுகளும் கண்டறியப்படவில்லை",
+        "Pleaseenteryourcomments": "தயவு செய்து கருத்துகளை உள்ளிடவும்",
+        "Comments": "கருத்துக்கள்",
+        "Success": "வெற்றி",
+        "RecordUpdatedSuccessfully": "பதிவு வெற்றிகரமாக புதுப்பிக்கப்பட்டது",
+        "Submit": "சமர்ப்பி",
+        
+        
+        "SelectBank": "வங்கி தேர்ந்தெடு",
+        "SelectBranch": "கிளையைத் தேர்ந்தெடுக்கவும்",
+        "SelectSwiftCode": "ஸ்விஃப்ட் குறியீட்டைத் தேர்ந்தெடுக்கவும்",
+        "Pleaseenterallfields": "எல்லா புலங்களையும் உள்ளிடுக",
+        "AccountHolderNamecannotexceed40characters": "கணக்கு ஹோல்டர் பெயர் 40 எழுத்துகளுக்கு மேல் இருக்கக்கூடாது",
+        "AccountNumbercannotexceed40characters": "கணக்கு எண் 40 எழுத்துகளுக்கு மேல் இல்லை",
+        "Already": "ஏற்கனவே",
+        "Added": "சேர்க்கப்பட்டது",
+        "AreyousurewanttodeletethisIdentityproof?": "இந்த அடையாள அடையாளத்தை நிச்சயமாக நீக்க விரும்புகிறீர்களா?",
+        "Pleaseaddidentityproofs": "அடையாள சான்றுகளைச் சேர்க்கவும்",
+        "idproofsaddedsuccesfully" : "ஐடி ஆதாரங்கள் வெற்றிகரமாக சேர்க்கப்பட்டது",
+        "Pleaseselectbank" : "வங்கியை தேர்ந்தெடுக்கவும்",
+        
+        "SelectImage": "படத்தைத் தேர்ந்தெடு",
+        "FromGallery": "கேலரியில் இருந்து",
+        "FromCamera": "கேமராவில் இருந்து",
+        "UploadDocument": "ஆவணத்தை பதிவேற்றவும்",
+        "Areyousurewanttouploadthisdocument?": "இந்த ஆவணத்தை நிச்சயமாக பதிவேற்ற விரும்புகிறீர்களா?",
+        "Thatdocumentnotaccessing": "அந்த ஆவணம் அணுகவில்லை",
+        "OK": "சரி",
+        "Yes" : "ஆம்",
+        "No"  : "இல்லை",
+        "Saved!": "சேமித்த!",
+        "Saveerror" : "பிழை சேமிக்கவும்",
+     
+        "Youralteredimagehasbeensavedtoyourphotos" : "உங்கள் மாற்றப்பட்ட படம் உங்கள் படங்களில் சேமிக்கப்பட்டுள்ளது",
+        "Areyousurewanttodeletethisdocument?": "இந்த ஆவணத்தை நிச்சயமாக நீக்க விரும்புகிறீர்களா?",
+        "Areyousurewanttodeletethisimage?": "நிச்சயமாக இந்த படத்தை நீக்க விரும்புகிறீர்களா?",
+        "Pleaseadddocuments": "ஆவணங்களைச் சேர்க்கவும்",
+        "rightButtonTitle" : "முடிந்தது",
+        "PayZanExecutive" : "PayZan நிர்வாகி",
+        "firstNameMustbebetween4to30Characters" : "சரியான முதல் பெயரை உள்ளிடவும்",
+        "lastNameMustbebetween4to30Characters" : "கடைசி பெயர் 3 முதல் 40 எழுத்துகள் வரை இருக்க வேண்டும்",
+        "middleNameMustbebetween4to30Characters" : "மத்திய பெயர் 3 முதல் 40 எழுத்துகள் வரை இருக்க வேண்டும்",
+        
+        "AccountHolderName" : "கணக்கு வைத்திருப்பவரின் பெயர்",
+        "AccountNumber" : "கணக்கு எண்",
+        "BankName" : "வங்கி பெயர்",
+        "BranchName" : "கிளை பெயர்",
+        "SWIFT Code" : "SWIFT குறியீடு",
+        "SelectIDProof" : "தேர்வு ID ப்ரூஃப்",
+        "AreYouSureWantToLogout" : "வெளியேறுவதற்கு நீங்கள் உறுதியாக உள்ளீர்களா?",
+        "PleaseAddDocuments" : "ஆவணங்களைச் சேர்க்கவும்",
+        "Pleaseloginintoyourpayzanaccount" : "தயவுசெய்து உங்கள் PayZan கணக்கில் உள்நுழைக,
+        "Pleaseentervalidmobilenumber" : "செல்லுபடியாகும் மொபைல் எண்ணை உள்ளிடுக",
+        "PleaseentervalidPassword" : "சரியான கடவுச்சொல்லை உள்ளிடுக",
+        "Done" : "முடிந்தது"
+
+        
+        
+    }
+    
+    
+    
+    
+    
+}

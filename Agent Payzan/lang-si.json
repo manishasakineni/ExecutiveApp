@@ -1,0 +1,257 @@
+{
+    "TitleType": "හිමිකම් වර්ගය",
+    "FirstName": "මුල් නම",
+    "MiddleName": "මැද නම",
+    "LastName": "අවසන් නම",
+    "BusinessCategory": "ව්යාපාර කාණ්ඩය",
+    "UserName": "පරිශීලක නාමය",
+    "Password": "මුරපදය",
+    "Gender": "ස්ත්රී පුරුෂ භාවය",
+    "MobileNumber": " දූරකථන අංකය",
+    "EmailId": "ඊ-තැපැල් ලිපිනය",
+    "Dateofbirth": "උපන්දිනය",
+    "Address1": "ලිපිනය 1",
+    "Address2": "ලිපිනය 2",
+    "LandMark": "ඉඩම් මාර්ක්",
+    "ProvinanceName": "නමේ නම",
+    "DistrictName": "දිස්ත්රික් නම",
+    "MandalName": "මැන්ඩල් නාමය",
+    "VillageName": "ගම් නම",
+    "PostalCode": "තැපැල් කේතය",
+    
+    "app": {
+        
+        "Loading..." : "පැටවීම...",
+        "Login": "ඇතුල් වන්න",
+        "MobileNumber": "ජංගම දූරකථන අංකය",
+        "Password": "මුරපදය",
+        "ChooseLanguage": "භාෂාව තෝරන්න",
+        
+        "Logout": "ඉවත්ව යාම",
+        "AgentRequests": "නියෝජිත ඉල්ලීම්",
+        "Yettogo": "ඒත් යන්න",
+        "UnVerified": "අනේවාසිකය",
+        "Verified": "සත්යාපිතයි",
+        "NewAgent": "නව නියෝජිතයා",
+        "Pick/HoldAgent": "තෝරන්න / අල්ල ගන්න නියෝජිතයා",
+        "InProgress": "ප්රගතියේ",
+        "ApprovedAgents": "අනුමත නියෝජිතයන්",
+        "Home": "ගෙදර",
+        "AgentRequest": "නියෝජිත ඉල්ලීම",
+        "Agent Request": "නියෝජිත ඉල්ලීම",
+        
+        "NewAgentRegistration": "නව නියෝජිත ලියාපදිංචිය",
+        "Personal": "පුද්ගලික",
+        "Bank": "බැංකුව",
+        "IDProofs": "ID ඔප්පු",
+        "Documents": "ලියකියවිලි",
+        "BankDetails": "බැංකු තොරතුරු",
+        "AccountHolderName": "ගිණුම් හිමියාගේ නම",
+        "AccountNumber": "ගිණුම් අංකය",
+        "BankName": "බැංකුවේ නම",
+        "BranchName": "ශාඛා නාම",
+        "SWIFTCode": "ස්විෆ්ට් කේතය",
+        "Cancel": "අවලංගු කරන්න",
+        "Update": "යාවත්කාලීන කිරීම",
+        "IdentityProofs": "අනන්යතා සාධක",
+        "PersonalIdentityProof": "පෞද්ගලික හැඳුනුම්පත",
+        "Name": "නම",
+        "Number": "අංකය",
+        "FinancialIdentityProof": "මූල්ය හැඳුනුම්පත",
+        
+        
+        "Add": "එකතු කරන්න",
+        
+        "AggrementDocuments": "සංයුක්ත ලේඛන",
+        "AddDocuments": "ලියකියවිලි එක් කරන්න",
+        "UploadDocuments": "ලේඛන උඩුගත කරන්න",
+        "Finish": "අවසන් කරන්න",
+        "AgentHistory" : "නියෝජිත ඉතිහාසය",
+        "Alert": "ඇලර්ට්",
+        "YoursessionhasbeentimedoutPleaseloginagain": "ඔබගේ සැසිය කල් ඉකුත්ව ඇත. කරුණාකර නැවත පුරනය වන්න",
+        "Warning": "අවවාදයයි",
+        "Servererror": "සේවාදායක දෝෂය",
+        "Therequesttimeout": "ඉල්ලීම කාලය ඉවරයි",
+        "PleaseCheckInternet": "කරුණාකර අන්තර්ජාලය පරික්ෂා කරන්න",
+        "Pleasecheckyourinternetconnection!": "කරුණාකර ඔබගේ අන්තර්ජාල සම්බන්ධතාවය පරික්ෂා කරන්න!",
+        
+        
+        
+        
+        
+        
+        "Therequesttimedout": "ඉල්ලීම කල් දැමීය.",
+        
+        
+        "PleaseselecttitleType": "කරුණාකර මාතෘකාව වර්ගය තෝරන්න",
+        
+        "Pleaseselectpersonalidentityprooftype": "කරුණාකර පෞද්ගලික අනන්යතාව තහවුරු කරන්න",
+        
+        "Pleaseenterpersonalidentityproofnumber": "කරුණාකර පෞද්ගලික හැඳුනුම් අංකයක් ඇතුලත් කරන්න",
+        
+        "Pleaseselectfinancialidentityprooftype": "කරුණාකර මූල්ය අනන්යතා සහතිකය තෝරන්න",
+        
+        "PleaseenterfinancialidentityproofNumber": "කරුණාකර මූල්ය අනන්යතා සහතිකය ඇතුලත් කරන්න",
+        
+        "Pleaseselectbussinesscategory": "ව්යාපාර කාණ්ඩය තෝරන්න",
+        
+        "Pleaseprovideusername": "කරුණාකර පරිශීලක නාමය සපයන්න",
+        
+        "Pleaseprovidepassword": "කරුණාකර මුරපදය ලබා දෙන්න",
+        
+        "Pleaseselectgender": "කරුණාකර ලිංගාර්ථය තෝරා ගන්න",
+        
+        "Pleaseprovidecurrentlocation": "කරුණාකර වත්මන් ස්ථානය ලබා දෙන්න",
+        
+        "Pleaseselectyourprovince": "කරුණාකර ඔබේ පළාත තෝරන්න",
+        
+        "Pleaseselectyourdistrict": "කරුණාකර ඔබේ දිස්ත්රික්කය තෝරා ගන්න",
+        
+        "Pleaseselectyourmandal": "කරුණාකර ඔබේ මැන්ඩල් තෝරන්න",
+        
+        "Pleaseselectyourvillage": "කරුණාකර ඔබේ ගම තෝරන්න",
+        
+        "Pleaseprovideyouraddress1": "කරුණාකර ලිපිනය සපයන්න1",
+        
+        "Pleaseprovideyouraddress2": "කරුණාකර ඔබේ ලිපිනය ලබාදෙන්න",
+        
+        "Pleaseprovideyourlandmark": "කරුණාකර ඔබේ සන්ධිස්ථානය ලබා දෙන්න",
+        
+        "Pleaseprovideyourcomments": "කරුණාකර ඔබේ අදහස් ලබා දෙන්න",
+        
+        "Pleaseprovidevalidemailid": "කරුණාකර වලංගු විද්යුත් තැපැල් හැඳුනුම්පතක් ලබා දෙන්න",
+        
+        "Pleaseprovideemailid": "කරුණාකර විද්යුත් තැපැල් අංකය සපයන්න",
+        
+        
+        
+        "Pleaseenterwalletamount": "කරුණාකර මුදල් පසුම්බිය ඇතුළු කරන්න",
+        
+        "Passwordshouldbeofminimum5character": "මුරපදය අවම වශයෙන් අක්ෂර 5 ක් විය යුතුය",
+        
+        "Pleaseprovideyourfirstname": "කරුණාකර ඔබේ පළමු නම ලබා දෙන්න",
+        
+        "Pleaseprovideyourlastname": "කරුණාකර ඔබේ අවසන් නම ලබා දෙන්න",
+        
+        "Pleaseprovideyourmobilenumber": "කරුණාකර ඔබේ ජංගම දුරකථන අංකය සපයන්න",
+        
+        "Pleaseprovide10digitsmobilenumber": "කරුණාකර අංක 10 දුරකථන අංකයක් ලබා දෙන්න",
+        
+        "Pleaseconfirmpassword": "කරුණාකර මුරපදය තහවුරු කරන්න",
+        
+        "Passwordmissmatch": "මුරපදය ගැළපීමේ තරඟය",
+        
+        "Pleaseprovidedateofbirth": "කරුණාකර උපන් දිනය ඉදිරිපත් කරන්න",
+        
+        "NetworkiseitherslowornotConnected": "ජාලය මන්දගාමී හෝ සම්බන්ධ නොවේ",
+        
+        "Invalidusernameorpassword": "වලංගු නොවන පරිශීලක නාමය හෝ මුරපදය",
+        
+        "SomeErrorOccured": "සමහර දෝෂයක් ඇතිවිය",
+        
+        "SuccessfullyDone": "සාර්ථක විය",
+        
+        "PleaseEnterValidPin": "කරුණාකර වලංගු ස්පර්ශ කරන්න",
+        
+        "PleaseEnterValidInformation": "කරුණාකර වලංගු තොරතුරු ඇතුලත් කරන්න",
+        
+        "Passwordsmusthaveatleastonenonalphanumericcharacter": "මුරපදයන් අවම වශයෙන් අක්ෂරාංකි අකුරක් වත් තිබිය යුතුය",
+        
+        "Passwordsmusthaveatleastoneuppercase('A'-'Z')": "මුරපදය අවම වශයෙන් එක් මහකස් එකක් ('A' - 'Z') තිබිය යුතුය.",
+        
+        "Passwordsmusthaveatleastonedigit('0'-'9')": "මුරපදය අවම වශයෙන් එක් අංකයක් තිබිය යුතුය ('0' - '9')",
+        
+        "PasswordMustbebetween4to30Characters": "කරුණාකර අවම අක්ෂර 8 ඇතුලත් කරන්න",
+        
+        "Emailshouldbeofminimum4character": "කරුණාකර අවම අක්ෂර 5 ඇතුලත් කරන්න",
+        
+        "Mobilenumbershouldstartwith('7'-'9')": "ජංගම අංකය ආරම්භ කළ යුතුය ('7' - '9')",
+        
+        "InvalidUsernameorPassword": "වලංගු නොවන පරිශීලක නාමය හෝ මුරපදය",
+        
+        
+        
+        "Status:": "තත්ත්වය:",
+        "AssignTo:": "පැවරීම :",
+        "Comment:": "අදහස්:",
+        "CreatedDate:": "නිර්මාණය කළ දිනය:",
+        
+        "Hold": "අල්ලන්න",
+        "PickUp": "තෝරාගන්න",
+        "Comments": "අදහස්",
+        "ConvertAsAgent": "නියෝජිත ලෙස පරිවර්තනය කරන්න",
+        "Review": "සමාලෝචනය",
+        
+        
+        "CurrentLocation": "වත්මන් පිහිටීම",
+        "LocationonMap": "සිතියමෙහි පිහිටීම",
+        
+        "Recharge": "රිචාර්ඡ්",
+        "Next": "ඊලඟ",
+        
+        
+        "Message": "පණිවුඩය",
+        "Pleaseenterrequiredfields" : "කරුණාකර අවශ්ය ක්ෂේත්ර ඇතුලත් කරන්න",
+        "Pleaseenteryourmobilenumberoremail": "කරුණාකර ජංගම දුරකථන අංකය ඇතුළත් කරන්න",
+        "Pleaseenteryourpassword": "මුරපදය ඇතුල් කරන්න",
+        "Worning": "දරුණුයි",
+        "Mobilenumbershouldbe10digits": "කරුණාකර 10 ඉලක්කම් අංකයක් ඇතුලත් කරන්න",
+        "NoRecordsFound": "වාර්තා හමුවී නැත",
+        "Pleaseenteryourcomments": "කරුණාකර ඔබේ අදහස් ඇතුළත් කරන්න",
+        
+        "Success": "සාර්ථකත්වය",
+        "RecordUpdatedSuccessfully": "වාර්තාව සාර්ථකව යාවත්කාලීන වේ",
+        "Submit": "ඉදිරිපත් කරන්න",
+        
+        
+        "SelectBank": "බැංකුව තෝරන්න",
+        "SelectBranch": "ශාඛාව තෝරන්න",
+        "SelectSwiftCode": "ස්විෆ්ට් කේතය තෝරන්න",
+        "Pleaseenterallfields": "කරුණාකර සියළු ක්ෂේත්ර ඇතුලත් කරන්න",
+        "AccountHolderNamecannotexceed40characters": "ගිණුම් හිමියාගේ නම අක්ෂර 40 ඉක්මවිය නොහැක",
+        "AccountNumbercannotexceed40characters": "ගිණුම් අංකය අක්ෂර 40 ඉක්මවිය නොහැක",
+        "Already": "දැනටමත්",
+        "Added": "එකතු කරන්න",
+        "AreyousurewanttodeletethisIdentityproof?": "මෙම අනන්යතා සාධනය මකා දැමීමට ඔබට අවශ්යද?",
+        "Pleaseaddidentityproofs": "කරුණාකර අනන්යතා ඔප්පු එකතු කරන්න",
+        "idproofsaddedsuccesfully" : "නිෂ්චිත සාක්ෂි සාර්ථකව එක් කරන ලදී",
+        "Pleaseselectbank" : "කරුණාකර බැංකු තෝරාගන්න",
+        
+        "SelectImage": "පින්තූර තෝරන්න",
+        "FromGallery": "ගැලරිය වෙතින්",
+        "FromCamera": "කැමරාව වෙතින්",
+        "UploadDocument": "උඩුගත කරන්න",
+        "Areyousurewanttouploadthisdocument?": "මෙම ලේඛනය උඩුගත කිරීමට ඔබට අවශ්යද?",
+        "Thatdocumentnotaccessing": "එම ලේඛනයට පිවිසීමට නොහැක",
+        "OK": "හරි",
+        "Yes" : "ඔව්",
+        "No"  : "නැත",
+        "Saved!": "සුරකින ලදි!",
+        "Saveerror" : "සුරකින්න",
+        "Youralteredimagehasbeensavedtoyourphotos": "ඔබගේ වෙනස් කළ ඡායාරූපය ඔබගේ ඡායාරූප වෙත සුරැකී ඇත.",
+
+        "Areyousurewanttodeletethisdocument?": "මෙම ලේඛනය මකා දැමීමට ඔබට අවශ්යද?",
+        "Areyousurewanttodeletethisimage?": "මෙම පින්තූරය මකා දැමීමට ඔබට අවශ්යද?",
+        "Pleaseadddocuments": "කරුණාකර ලේඛන එකතු කරන්න",
+        "rightButtonTitle" : "අමාරුයි",
+        "PayZanExecutive" : "PayZan විධායක",
+        "firstNameMustbebetween4to30Characters" : "කරුණාකර වලංගු මුල් නම ඇතුලත් කරන්න",
+        "lastNameMustbebetween4to30Characters" : "අවසාන නම අකුරු 3 සිට 40 දක්වා විය යුතුය",
+        "middleNameMustbebetween4to30Characters" : "මධ්යම නම අකුරු 3 සිට 40 දක්වා විය යුතුය",
+        
+        "AccountHolderName" : "ගිණුම් හිමියාගේ නම",
+        "AccountNumber" : "ගිණුම් අංකය",
+        "BankName" : "බැංකුවේ නම",
+        "BranchName" : "ශාඛා නාම",
+        "SWIFT Code" : "SWIFT කේතය",
+        "SelectIDProof" : "තෝරන්න ID සාක්ෂි",
+        "AreYouSureWantToLogout" : "ඔබ ලොග් වීමට අවශ්යද?",
+        "PleaseAddDocuments" : "කරුණාකර ලියවිලි එකතු කරන්න",
+        "Pleaseloginintoyourpayzanaccount" : "කරුණාකර ඔබගේ ගිණුමට ඇතුල් වන්න PayZan ගිණුම",
+        "Pleaseentervalidmobilenumber" : "කරුණාකර වලංගු ජංගම අංකයක් ඇතුලත් කරන්න",
+        "PleaseentervalidPassword" : "කරුණාකර වලංගු මුරපදයක් ඇතුලත් කරන්න",
+        "Done" : "අමාරුයි"
+    }
+    
+    
+}

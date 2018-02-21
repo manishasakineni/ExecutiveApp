@@ -1,0 +1,1040 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		350CB0C11FC701F90059F951 /* AgentReqCountsVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350CB0C01FC701F90059F951 /* AgentReqCountsVo.swift */; };
+		350CB0C31FC702440059F951 /* AgentReqStatusCountVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350CB0C21FC702440059F951 /* AgentReqStatusCountVo.swift */; };
+		350CB0C51FC702D00059F951 /* AgentReqCountResultVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350CB0C41FC702D00059F951 /* AgentReqCountResultVo.swift */; };
+		350CB0C81FC716290059F951 /* DocTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350CB0C61FC716290059F951 /* DocTableViewCell.swift */; };
+		350CB0C91FC716290059F951 /* DocTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 350CB0C71FC716290059F951 /* DocTableViewCell.xib */; };
+		3539E44F1FB1781C005ACC7C /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3539E44E1FB1781C005ACC7C /* Device.swift */; };
+		354CDF601FC8616B00A56082 /* AgentRequestStatusHistoryInfoVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354CDF5E1FC8616B00A56082 /* AgentRequestStatusHistoryInfoVo.swift */; };
+		354CDF611FC8616B00A56082 /* AgentRequestStatusHistoryResultVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354CDF5F1FC8616B00A56082 /* AgentRequestStatusHistoryResultVo.swift */; };
+		354CDF641FC87F6F00A56082 /* DeleteDocVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354CDF621FC87F6F00A56082 /* DeleteDocVo.swift */; };
+		354CDF651FC87F6F00A56082 /* DeleteDocResultVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354CDF631FC87F6F00A56082 /* DeleteDocResultVo.swift */; };
+		35500AA91FC43000005963E9 /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500A911FC43000005963E9 /* CustomDateFormatTransform.swift */; };
+		35500AAA1FC43000005963E9 /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500A921FC43000005963E9 /* DataTransform.swift */; };
+		35500AAB1FC43000005963E9 /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500A931FC43000005963E9 /* DateFormatterTransform.swift */; };
+		35500AAC1FC43000005963E9 /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500A941FC43000005963E9 /* DateTransform.swift */; };
+		35500AAD1FC43000005963E9 /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500A951FC43000005963E9 /* DictionaryTransform.swift */; };
+		35500AAE1FC43000005963E9 /* EnumOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500A961FC43000005963E9 /* EnumOperators.swift */; };
+		35500AAF1FC43000005963E9 /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500A971FC43000005963E9 /* EnumTransform.swift */; };
+		35500AB01FC43000005963E9 /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500A981FC43000005963E9 /* FromJSON.swift */; };
+		35500AB11FC43000005963E9 /* HexColorTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500A991FC43000005963E9 /* HexColorTransform.swift */; };
+		35500AB21FC43000005963E9 /* ImmutableMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500A9A1FC43000005963E9 /* ImmutableMappable.swift */; };
+		35500AB31FC43000005963E9 /* IntegerOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500A9B1FC43000005963E9 /* IntegerOperators.swift */; };
+		35500AB41FC43000005963E9 /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500A9C1FC43000005963E9 /* ISO8601DateTransform.swift */; };
+		35500AB51FC43000005963E9 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500A9D1FC43000005963E9 /* Map.swift */; };
+		35500AB61FC43000005963E9 /* MapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500A9E1FC43000005963E9 /* MapError.swift */; };
+		35500AB71FC43000005963E9 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500A9F1FC43000005963E9 /* Mappable.swift */; };
+		35500AB81FC43000005963E9 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500AA01FC43000005963E9 /* Mapper.swift */; };
+		35500AB91FC43000005963E9 /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500AA11FC43000005963E9 /* NSDecimalNumberTransform.swift */; };
+		35500ABA1FC43000005963E9 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500AA31FC43000005963E9 /* Operators.swift */; };
+		35500ABB1FC43000005963E9 /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500AA41FC43000005963E9 /* ToJSON.swift */; };
+		35500ABC1FC43000005963E9 /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500AA51FC43000005963E9 /* TransformOf.swift */; };
+		35500ABD1FC43000005963E9 /* TransformOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500AA61FC43000005963E9 /* TransformOperators.swift */; };
+		35500ABE1FC43000005963E9 /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500AA71FC43000005963E9 /* TransformType.swift */; };
+		35500ABF1FC43000005963E9 /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500AA81FC43000005963E9 /* URLTransform.swift */; };
+		35500AC21FC431BC005963E9 /* AgentPersonalnfoVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500AC11FC431BC005963E9 /* AgentPersonalnfoVo.swift */; };
+		35500AC41FC43214005963E9 /* AgentPersonalResultVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500AC31FC43214005963E9 /* AgentPersonalResultVo.swift */; };
+		35500AC61FC436EB005963E9 /* ServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500AC51FC436EB005963E9 /* ServiceController.swift */; };
+		35500AC81FC43777005963E9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35500AC71FC43777005963E9 /* SystemConfiguration.framework */; };
+		35500ACA1FC44D8F005963E9 /* AgentBankVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500AC91FC44D8F005963E9 /* AgentBankVo.swift */; };
+		35500ACC1FC44DC0005963E9 /* AgentBankResultVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500ACB1FC44DC0005963E9 /* AgentBankResultVo.swift */; };
+		35500ACE1FC455F8005963E9 /* AgentIdProofVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500ACD1FC455F8005963E9 /* AgentIdProofVo.swift */; };
+		35500AD01FC45636005963E9 /* AgentIdProofResultVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500ACF1FC45636005963E9 /* AgentIdProofResultVo.swift */; };
+		35500AD81FC46ECD005963E9 /* GetIdProofResultVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500AD21FC46ECD005963E9 /* GetIdProofResultVo.swift */; };
+		35500AD91FC46ECD005963E9 /* GetIdProofsVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500AD31FC46ECD005963E9 /* GetIdProofsVo.swift */; };
+		35500ADA1FC46ECD005963E9 /* GetBankInfoVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500AD41FC46ECD005963E9 /* GetBankInfoVo.swift */; };
+		35500ADB1FC46ECD005963E9 /* GetBankResultVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500AD51FC46ECD005963E9 /* GetBankResultVo.swift */; };
+		35500ADC1FC46ECD005963E9 /* GetPersonalInfoVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500AD61FC46ECD005963E9 /* GetPersonalInfoVo.swift */; };
+		35500ADD1FC46ECD005963E9 /* GetPersonalResultVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35500AD71FC46ECD005963E9 /* GetPersonalResultVo.swift */; };
+		355295651FAAED58007A2605 /* LoginParamsAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355295641FAAED58007A2605 /* LoginParamsAPIModel.swift */; };
+		355295671FAAEE4D007A2605 /* AgentReqInfoParamsAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355295661FAAEE4D007A2605 /* AgentReqInfoParamsAPIModel.swift */; };
+		355295691FAB0DCE007A2605 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355295681FAB0DCE007A2605 /* ShadowView.swift */; };
+		3552956B1FAB5438007A2605 /* InProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3552956A1FAB5438007A2605 /* InProgressViewController.swift */; };
+		3552956E1FAB5463007A2605 /* InProgressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3552956C1FAB5463007A2605 /* InProgressTableViewCell.swift */; };
+		3552956F1FAB5463007A2605 /* InProgressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3552956D1FAB5463007A2605 /* InProgressTableViewCell.xib */; };
+		355653D71FCD47D600C65A86 /* CommentHistoryInfoVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355653D51FCD47D600C65A86 /* CommentHistoryInfoVo.swift */; };
+		355653D81FCD47D600C65A86 /* CommenthistoryResultVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355653D61FCD47D600C65A86 /* CommenthistoryResultVo.swift */; };
+		355653DA1FCD488800C65A86 /* AgentHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355653D91FCD488800C65A86 /* AgentHistoryViewController.swift */; };
+		355653DD1FCD48AF00C65A86 /* AgentHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355653DB1FCD48AF00C65A86 /* AgentHistoryTableViewCell.swift */; };
+		355653DE1FCD48AF00C65A86 /* AgentHistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 355653DC1FCD48AF00C65A86 /* AgentHistoryTableViewCell.xib */; };
+		355E14AA1F99E65E006A9DAE /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 355E14A91F99E65E006A9DAE /* UIView+Toast.m */; };
+		355E14B51F9A0DF2006A9DAE /* AddDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355E14B41F9A0DF2006A9DAE /* AddDocumentViewController.swift */; };
+		355E14B71F9A394E006A9DAE /* IdentityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355E14B61F9A394E006A9DAE /* IdentityViewController.swift */; };
+		356253D11FAC524A006FD52D /* GlobalSupportingClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356253D01FAC524A006FD52D /* GlobalSupportingClass.swift */; };
+		35FE52091FC5A193008F021F /* AgentDocumentsVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FE52081FC5A193008F021F /* AgentDocumentsVo.swift */; };
+		35FE520B1FC5A1AB008F021F /* AgentDocResultVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FE520A1FC5A1AB008F021F /* AgentDocResultVo.swift */; };
+		35FE52131FC5E582008F021F /* UpdateAgentBankInfoVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FE520D1FC5E582008F021F /* UpdateAgentBankInfoVo.swift */; };
+		35FE52141FC5E582008F021F /* UpdateAgentBankResultVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FE520E1FC5E582008F021F /* UpdateAgentBankResultVo.swift */; };
+		35FE52151FC5E582008F021F /* UpdateAgentPersonalInfoVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FE520F1FC5E582008F021F /* UpdateAgentPersonalInfoVo.swift */; };
+		35FE52161FC5E582008F021F /* UpdateAgentPersonalResultVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FE52101FC5E582008F021F /* UpdateAgentPersonalResultVo.swift */; };
+		35FE52171FC5E582008F021F /* UpdateAgentProofInfoVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FE52111FC5E582008F021F /* UpdateAgentProofInfoVo.swift */; };
+		35FE52181FC5E582008F021F /* UpdateAgentProofResultVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FE52121FC5E582008F021F /* UpdateAgentProofResultVo.swift */; };
+		35FE521B1FC604D4008F021F /* GetDocumentsResultVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FE52191FC604D4008F021F /* GetDocumentsResultVo.swift */; };
+		35FE521C1FC604D4008F021F /* GetDocumentsVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FE521A1FC604D4008F021F /* GetDocumentsVo.swift */; };
+		3D146EFC20064393001DE7CD /* 384X100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D146EFB20064393001DE7CD /* 384X100.jpg */; };
+		3D146EFE2006439A001DE7CD /* 1536X250.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D146EFD2006439A001DE7CD /* 1536X250.jpg */; };
+		3D1A1CC01F8CA0610081F74E /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A1CBF1F8CA0610081F74E /* APIModel.swift */; };
+		3D1A1CC21F8CCEFE0081F74E /* ParametersAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A1CC11F8CCEFE0081F74E /* ParametersAPIModel.swift */; };
+		3D1A1CC41F8CDBB40081F74E /* ParsingModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A1CC31F8CDBB40081F74E /* ParsingModelClass.swift */; };
+		3D1D828E1FAC4FB20060D2C2 /* UpdateAgentReqInfoParamsAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D828D1FAC4FB20060D2C2 /* UpdateAgentReqInfoParamsAPIModel.swift */; };
+		3D1FBD791FC8874F00C5D685 /* DeleteIdProofVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1FBD781FC8874F00C5D685 /* DeleteIdProofVo.swift */; };
+		3D1FBD7B1FC8876C00C5D685 /* DeleteIdProofResultVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1FBD7A1FC8876C00C5D685 /* DeleteIdProofResultVo.swift */; };
+		3D37CF221FB02BFC00AD749D /* TextFieldDimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D37CF211FB02BFC00AD749D /* TextFieldDimensions.swift */; };
+		3D3A74081FC302200026CAD4 /* DocsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A74061FC302200026CAD4 /* DocsCollectionViewCell.swift */; };
+		3D3A74091FC302200026CAD4 /* DocsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D3A74071FC302200026CAD4 /* DocsCollectionViewCell.xib */; };
+		3D4AC4771FC69BF0008C9951 /* IDProofsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4AC4751FC69BF0008C9951 /* IDProofsTableViewCell.swift */; };
+		3D4AC4781FC69BF0008C9951 /* IDProofsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D4AC4761FC69BF0008C9951 /* IDProofsTableViewCell.xib */; };
+		3D4B8B741FEA3FD200CA46E6 /* FeatureUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B8B731FEA3FD200CA46E6 /* FeatureUse.swift */; };
+		3D4EC4701FE3F94300936545 /* lang-en.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D4EC46F1FE3F94300936545 /* lang-en.json */; };
+		3D4EC4721FE3F95A00936545 /* lang-si.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D4EC4711FE3F95A00936545 /* lang-si.json */; };
+		3D4EC4741FE3F96B00936545 /* lang-ta.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D4EC4731FE3F96B00936545 /* lang-ta.json */; };
+		3D4EC4761FE3F99100936545 /* lang-en-DE.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D4EC4751FE3F99100936545 /* lang-en-DE.json */; };
+		3D533D811F97610400DED599 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D533D801F97610400DED599 /* HomeViewController.swift */; };
+		3D533D831F9765AF00DED599 /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D533D821F9765AF00DED599 /* RequestsViewController.swift */; };
+		3D533D861F976BD100DED599 /* RequestsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D533D841F976BD100DED599 /* RequestsTableViewCell.swift */; };
+		3D533D871F976BD100DED599 /* RequestsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D533D851F976BD100DED599 /* RequestsTableViewCell.xib */; };
+		3D5B03051FF4D1AD00EE91B1 /* RefreshTokenVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B03041FF4D1AD00EE91B1 /* RefreshTokenVo.swift */; };
+		3D5B03071FF4D2C100EE91B1 /* RefreshTokenResultVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B03061FF4D2C100EE91B1 /* RefreshTokenResultVo.swift */; };
+		3D5B03091FF4D71900EE91B1 /* RefreshTokenAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B03081FF4D71900EE91B1 /* RefreshTokenAPIModel.swift */; };
+		3D65EB981F9F267400D82B65 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D65EB971F9F267400D82B65 /* Reachability.swift */; };
+		3D98E80B1F85FEEB00DC8976 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D98E80A1F85FEEB00DC8976 /* AppDelegate.swift */; };
+		3D98E8101F85FEEB00DC8976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D98E80E1F85FEEB00DC8976 /* Main.storyboard */; };
+		3D98E8121F85FEEB00DC8976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D98E8111F85FEEB00DC8976 /* Assets.xcassets */; };
+		3D98E8151F85FEEB00DC8976 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D98E8131F85FEEB00DC8976 /* LaunchScreen.storyboard */; };
+		3D98E8211F865BC600DC8976 /* NewAgentRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D98E8201F865BC600DC8976 /* NewAgentRegistrationViewController.swift */; };
+		3DDEC8FA1FBC180C00E5849E /* HomeRequestAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDEC8F91FBC180C00E5849E /* HomeRequestAPIModel.swift */; };
+		3DE6A8371FA2093C00E09E1C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE6A8361FA2093C00E09E1C /* LoginViewController.swift */; };
+		3DF4CDAC1F8B46A400C1F6DA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF4CDA81F8B46A400C1F6DA /* Constants.swift */; };
+		3DF4CDAD1F8B46A400C1F6DA /* NetworkServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF4CDA91F8B46A400C1F6DA /* NetworkServiceHandler.swift */; };
+		3DF4CDAE1F8B46A400C1F6DA /* NetworkResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF4CDAA1F8B46A400C1F6DA /* NetworkResponseParser.swift */; };
+		3DF4CDAF1F8B46A400C1F6DA /* AddNewAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF4CDAB1F8B46A400C1F6DA /* AddNewAddressViewController.swift */; };
+		3DF4CDB41F8B560700C1F6DA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF4CDB31F8B560700C1F6DA /* Utilities.swift */; };
+		3DF8E6161F88953D0095ABBB /* AgentRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8E6151F88953D0095ABBB /* AgentRequestViewController.swift */; };
+		3DF8E6191F8895BB0095ABBB /* AgentReqTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8E6171F8895BB0095ABBB /* AgentReqTableViewCell.swift */; };
+		3DF8E61A1F8895BB0095ABBB /* AgentReqTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DF8E6181F8895BB0095ABBB /* AgentReqTableViewCell.xib */; };
+		3DF8E61D1F88A2C00095ABBB /* PhoneNoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8E61B1F88A2C00095ABBB /* PhoneNoTableViewCell.swift */; };
+		3DF8E61E1F88A2C00095ABBB /* PhoneNoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DF8E61C1F88A2C00095ABBB /* PhoneNoTableViewCell.xib */; };
+		3DF8E6211F88A2DD0095ABBB /* ButtonsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8E61F1F88A2DD0095ABBB /* ButtonsTableViewCell.swift */; };
+		3DF8E6221F88A2DD0095ABBB /* ButtonsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DF8E6201F88A2DD0095ABBB /* ButtonsTableViewCell.xib */; };
+		3DFAA1A81F8F82A6008DBEC7 /* BankDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFAA1A71F8F82A6008DBEC7 /* BankDetailsViewController.swift */; };
+		3DFE8B311F874C81000BFD7C /* NewRegTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE8B2F1F874C81000BFD7C /* NewRegTableViewCell.swift */; };
+		3DFE8B321F874C81000BFD7C /* NewRegTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DFE8B301F874C81000BFD7C /* NewRegTableViewCell.xib */; };
+		3DFE8B351F874C9C000BFD7C /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE8B331F874C9C000BFD7C /* MapTableViewCell.swift */; };
+		3DFE8B361F874C9C000BFD7C /* MapTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DFE8B341F874C9C000BFD7C /* MapTableViewCell.xib */; };
+		3DFE8B381F8758EA000BFD7C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DFE8B371F8758EA000BFD7C /* CoreLocation.framework */; };
+		C19124E492DEAEDA2F70D308 /* Pods_Agent_Payzan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC1924CF46068EE231AE07A0 /* Pods_Agent_Payzan.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3D3B87681FB60027003E0D7E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		350CB0C01FC701F90059F951 /* AgentReqCountsVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentReqCountsVo.swift; sourceTree = "<group>"; };
+		350CB0C21FC702440059F951 /* AgentReqStatusCountVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentReqStatusCountVo.swift; sourceTree = "<group>"; };
+		350CB0C41FC702D00059F951 /* AgentReqCountResultVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentReqCountResultVo.swift; sourceTree = "<group>"; };
+		350CB0C61FC716290059F951 /* DocTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocTableViewCell.swift; sourceTree = "<group>"; };
+		350CB0C71FC716290059F951 /* DocTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DocTableViewCell.xib; sourceTree = "<group>"; };
+		3539E44E1FB1781C005ACC7C /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		354CDF5E1FC8616B00A56082 /* AgentRequestStatusHistoryInfoVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentRequestStatusHistoryInfoVo.swift; sourceTree = "<group>"; };
+		354CDF5F1FC8616B00A56082 /* AgentRequestStatusHistoryResultVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentRequestStatusHistoryResultVo.swift; sourceTree = "<group>"; };
+		354CDF621FC87F6F00A56082 /* DeleteDocVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteDocVo.swift; sourceTree = "<group>"; };
+		354CDF631FC87F6F00A56082 /* DeleteDocResultVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteDocResultVo.swift; sourceTree = "<group>"; };
+		35500A911FC43000005963E9 /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDateFormatTransform.swift; sourceTree = "<group>"; };
+		35500A921FC43000005963E9 /* DataTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTransform.swift; sourceTree = "<group>"; };
+		35500A931FC43000005963E9 /* DateFormatterTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatterTransform.swift; sourceTree = "<group>"; };
+		35500A941FC43000005963E9 /* DateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTransform.swift; sourceTree = "<group>"; };
+		35500A951FC43000005963E9 /* DictionaryTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryTransform.swift; sourceTree = "<group>"; };
+		35500A961FC43000005963E9 /* EnumOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumOperators.swift; sourceTree = "<group>"; };
+		35500A971FC43000005963E9 /* EnumTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumTransform.swift; sourceTree = "<group>"; };
+		35500A981FC43000005963E9 /* FromJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromJSON.swift; sourceTree = "<group>"; };
+		35500A991FC43000005963E9 /* HexColorTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexColorTransform.swift; sourceTree = "<group>"; };
+		35500A9A1FC43000005963E9 /* ImmutableMappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmutableMappable.swift; sourceTree = "<group>"; };
+		35500A9B1FC43000005963E9 /* IntegerOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegerOperators.swift; sourceTree = "<group>"; };
+		35500A9C1FC43000005963E9 /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8601DateTransform.swift; sourceTree = "<group>"; };
+		35500A9D1FC43000005963E9 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		35500A9E1FC43000005963E9 /* MapError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapError.swift; sourceTree = "<group>"; };
+		35500A9F1FC43000005963E9 /* Mappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mappable.swift; sourceTree = "<group>"; };
+		35500AA01FC43000005963E9 /* Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		35500AA11FC43000005963E9 /* NSDecimalNumberTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDecimalNumberTransform.swift; sourceTree = "<group>"; };
+		35500AA21FC43000005963E9 /* ObjectMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectMapper.h; sourceTree = "<group>"; };
+		35500AA31FC43000005963E9 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		35500AA41FC43000005963E9 /* ToJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToJSON.swift; sourceTree = "<group>"; };
+		35500AA51FC43000005963E9 /* TransformOf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformOf.swift; sourceTree = "<group>"; };
+		35500AA61FC43000005963E9 /* TransformOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformOperators.swift; sourceTree = "<group>"; };
+		35500AA71FC43000005963E9 /* TransformType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformType.swift; sourceTree = "<group>"; };
+		35500AA81FC43000005963E9 /* URLTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLTransform.swift; sourceTree = "<group>"; };
+		35500AC11FC431BC005963E9 /* AgentPersonalnfoVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentPersonalnfoVo.swift; sourceTree = "<group>"; };
+		35500AC31FC43214005963E9 /* AgentPersonalResultVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentPersonalResultVo.swift; sourceTree = "<group>"; };
+		35500AC51FC436EB005963E9 /* ServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceController.swift; sourceTree = "<group>"; };
+		35500AC71FC43777005963E9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		35500AC91FC44D8F005963E9 /* AgentBankVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentBankVo.swift; sourceTree = "<group>"; };
+		35500ACB1FC44DC0005963E9 /* AgentBankResultVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentBankResultVo.swift; sourceTree = "<group>"; };
+		35500ACD1FC455F8005963E9 /* AgentIdProofVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentIdProofVo.swift; sourceTree = "<group>"; };
+		35500ACF1FC45636005963E9 /* AgentIdProofResultVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentIdProofResultVo.swift; sourceTree = "<group>"; };
+		35500AD21FC46ECD005963E9 /* GetIdProofResultVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetIdProofResultVo.swift; sourceTree = "<group>"; };
+		35500AD31FC46ECD005963E9 /* GetIdProofsVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetIdProofsVo.swift; sourceTree = "<group>"; };
+		35500AD41FC46ECD005963E9 /* GetBankInfoVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetBankInfoVo.swift; sourceTree = "<group>"; };
+		35500AD51FC46ECD005963E9 /* GetBankResultVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetBankResultVo.swift; sourceTree = "<group>"; };
+		35500AD61FC46ECD005963E9 /* GetPersonalInfoVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPersonalInfoVo.swift; sourceTree = "<group>"; };
+		35500AD71FC46ECD005963E9 /* GetPersonalResultVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPersonalResultVo.swift; sourceTree = "<group>"; };
+		355295641FAAED58007A2605 /* LoginParamsAPIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginParamsAPIModel.swift; sourceTree = "<group>"; };
+		355295661FAAEE4D007A2605 /* AgentReqInfoParamsAPIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentReqInfoParamsAPIModel.swift; sourceTree = "<group>"; };
+		355295681FAB0DCE007A2605 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		3552956A1FAB5438007A2605 /* InProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InProgressViewController.swift; sourceTree = "<group>"; };
+		3552956C1FAB5463007A2605 /* InProgressTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InProgressTableViewCell.swift; sourceTree = "<group>"; };
+		3552956D1FAB5463007A2605 /* InProgressTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InProgressTableViewCell.xib; sourceTree = "<group>"; };
+		355653D31FCD431B00C65A86 /* test.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.epub; sourceTree = "<group>"; };
+		355653D51FCD47D600C65A86 /* CommentHistoryInfoVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentHistoryInfoVo.swift; sourceTree = "<group>"; };
+		355653D61FCD47D600C65A86 /* CommenthistoryResultVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommenthistoryResultVo.swift; sourceTree = "<group>"; };
+		355653D91FCD488800C65A86 /* AgentHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentHistoryViewController.swift; sourceTree = "<group>"; };
+		355653DB1FCD48AF00C65A86 /* AgentHistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		355653DC1FCD48AF00C65A86 /* AgentHistoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AgentHistoryTableViewCell.xib; sourceTree = "<group>"; };
+		355E14A81F99E65E006A9DAE /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		355E14A91F99E65E006A9DAE /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		355E14B41F9A0DF2006A9DAE /* AddDocumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AddDocumentViewController.swift; sourceTree = "<group>"; };
+		355E14B61F9A394E006A9DAE /* IdentityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentityViewController.swift; sourceTree = "<group>"; };
+		356253D01FAC524A006FD52D /* GlobalSupportingClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalSupportingClass.swift; sourceTree = "<group>"; };
+		35FE52081FC5A193008F021F /* AgentDocumentsVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentDocumentsVo.swift; sourceTree = "<group>"; };
+		35FE520A1FC5A1AB008F021F /* AgentDocResultVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentDocResultVo.swift; sourceTree = "<group>"; };
+		35FE520D1FC5E582008F021F /* UpdateAgentBankInfoVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateAgentBankInfoVo.swift; sourceTree = "<group>"; };
+		35FE520E1FC5E582008F021F /* UpdateAgentBankResultVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateAgentBankResultVo.swift; sourceTree = "<group>"; };
+		35FE520F1FC5E582008F021F /* UpdateAgentPersonalInfoVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateAgentPersonalInfoVo.swift; sourceTree = "<group>"; };
+		35FE52101FC5E582008F021F /* UpdateAgentPersonalResultVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateAgentPersonalResultVo.swift; sourceTree = "<group>"; };
+		35FE52111FC5E582008F021F /* UpdateAgentProofInfoVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateAgentProofInfoVo.swift; sourceTree = "<group>"; };
+		35FE52121FC5E582008F021F /* UpdateAgentProofResultVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateAgentProofResultVo.swift; sourceTree = "<group>"; };
+		35FE52191FC604D4008F021F /* GetDocumentsResultVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDocumentsResultVo.swift; sourceTree = "<group>"; };
+		35FE521A1FC604D4008F021F /* GetDocumentsVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDocumentsVo.swift; sourceTree = "<group>"; };
+		3D146EFB20064393001DE7CD /* 384X100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 384X100.jpg; sourceTree = "<group>"; };
+		3D146EFD2006439A001DE7CD /* 1536X250.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1536X250.jpg; sourceTree = "<group>"; };
+		3D1A1CBF1F8CA0610081F74E /* APIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
+		3D1A1CC11F8CCEFE0081F74E /* ParametersAPIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParametersAPIModel.swift; sourceTree = "<group>"; };
+		3D1A1CC31F8CDBB40081F74E /* ParsingModelClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParsingModelClass.swift; sourceTree = "<group>"; };
+		3D1D828D1FAC4FB20060D2C2 /* UpdateAgentReqInfoParamsAPIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateAgentReqInfoParamsAPIModel.swift; sourceTree = "<group>"; };
+		3D1FBD781FC8874F00C5D685 /* DeleteIdProofVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteIdProofVo.swift; sourceTree = "<group>"; };
+		3D1FBD7A1FC8876C00C5D685 /* DeleteIdProofResultVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteIdProofResultVo.swift; sourceTree = "<group>"; };
+		3D37CF211FB02BFC00AD749D /* TextFieldDimensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldDimensions.swift; sourceTree = "<group>"; };
+		3D3A74061FC302200026CAD4 /* DocsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocsCollectionViewCell.swift; sourceTree = "<group>"; };
+		3D3A74071FC302200026CAD4 /* DocsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DocsCollectionViewCell.xib; sourceTree = "<group>"; };
+		3D4069DC1FCFE7430011C90A /* Agent Payzan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Agent Payzan.entitlements"; sourceTree = "<group>"; };
+		3D4AC4751FC69BF0008C9951 /* IDProofsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDProofsTableViewCell.swift; sourceTree = "<group>"; };
+		3D4AC4761FC69BF0008C9951 /* IDProofsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IDProofsTableViewCell.xib; sourceTree = "<group>"; };
+		3D4B8B731FEA3FD200CA46E6 /* FeatureUse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureUse.swift; sourceTree = "<group>"; };
+		3D4EC46F1FE3F94300936545 /* lang-en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "lang-en.json"; sourceTree = "<group>"; };
+		3D4EC4711FE3F95A00936545 /* lang-si.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "lang-si.json"; sourceTree = "<group>"; };
+		3D4EC4731FE3F96B00936545 /* lang-ta.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "lang-ta.json"; sourceTree = "<group>"; };
+		3D4EC4751FE3F99100936545 /* lang-en-DE.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "lang-en-DE.json"; sourceTree = "<group>"; };
+		3D533D801F97610400DED599 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3D533D821F9765AF00DED599 /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		3D533D841F976BD100DED599 /* RequestsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsTableViewCell.swift; sourceTree = "<group>"; };
+		3D533D851F976BD100DED599 /* RequestsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RequestsTableViewCell.xib; sourceTree = "<group>"; };
+		3D5B03041FF4D1AD00EE91B1 /* RefreshTokenVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshTokenVo.swift; sourceTree = "<group>"; };
+		3D5B03061FF4D2C100EE91B1 /* RefreshTokenResultVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshTokenResultVo.swift; sourceTree = "<group>"; };
+		3D5B03081FF4D71900EE91B1 /* RefreshTokenAPIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshTokenAPIModel.swift; sourceTree = "<group>"; };
+		3D65EB971F9F267400D82B65 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		3D98E8071F85FEEB00DC8976 /* Agent Payzan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Agent Payzan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D98E80A1F85FEEB00DC8976 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D98E80F1F85FEEB00DC8976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D98E8111F85FEEB00DC8976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D98E8141F85FEEB00DC8976 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D98E8161F85FEEB00DC8976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D98E8201F865BC600DC8976 /* NewAgentRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAgentRegistrationViewController.swift; sourceTree = "<group>"; };
+		3DDEC8F91FBC180C00E5849E /* HomeRequestAPIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRequestAPIModel.swift; sourceTree = "<group>"; };
+		3DE6A8361FA2093C00E09E1C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3DF4CDA81F8B46A400C1F6DA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3DF4CDA91F8B46A400C1F6DA /* NetworkServiceHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkServiceHandler.swift; sourceTree = "<group>"; };
+		3DF4CDAA1F8B46A400C1F6DA /* NetworkResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResponseParser.swift; sourceTree = "<group>"; };
+		3DF4CDAB1F8B46A400C1F6DA /* AddNewAddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewAddressViewController.swift; sourceTree = "<group>"; };
+		3DF4CDB31F8B560700C1F6DA /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		3DF8E6151F88953D0095ABBB /* AgentRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentRequestViewController.swift; sourceTree = "<group>"; };
+		3DF8E6171F8895BB0095ABBB /* AgentReqTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentReqTableViewCell.swift; sourceTree = "<group>"; };
+		3DF8E6181F8895BB0095ABBB /* AgentReqTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AgentReqTableViewCell.xib; sourceTree = "<group>"; };
+		3DF8E61B1F88A2C00095ABBB /* PhoneNoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNoTableViewCell.swift; sourceTree = "<group>"; };
+		3DF8E61C1F88A2C00095ABBB /* PhoneNoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhoneNoTableViewCell.xib; sourceTree = "<group>"; };
+		3DF8E61F1F88A2DD0095ABBB /* ButtonsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsTableViewCell.swift; sourceTree = "<group>"; };
+		3DF8E6201F88A2DD0095ABBB /* ButtonsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonsTableViewCell.xib; sourceTree = "<group>"; };
+		3DFAA1A71F8F82A6008DBEC7 /* BankDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankDetailsViewController.swift; sourceTree = "<group>"; };
+		3DFE8B2F1F874C81000BFD7C /* NewRegTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRegTableViewCell.swift; sourceTree = "<group>"; };
+		3DFE8B301F874C81000BFD7C /* NewRegTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewRegTableViewCell.xib; sourceTree = "<group>"; };
+		3DFE8B331F874C9C000BFD7C /* MapTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTableViewCell.swift; sourceTree = "<group>"; };
+		3DFE8B341F874C9C000BFD7C /* MapTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapTableViewCell.xib; sourceTree = "<group>"; };
+		3DFE8B371F8758EA000BFD7C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4B4394F3C83C9617F4C640BD /* Pods-Agent Payzan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agent Payzan.release.xcconfig"; path = "Pods/Target Support Files/Pods-Agent Payzan/Pods-Agent Payzan.release.xcconfig"; sourceTree = "<group>"; };
+		BC1924CF46068EE231AE07A0 /* Pods_Agent_Payzan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agent_Payzan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F544185816513D38667BDBB2 /* Pods-Agent Payzan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agent Payzan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Agent Payzan/Pods-Agent Payzan.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D98E8041F85FEEB00DC8976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35500AC81FC43777005963E9 /* SystemConfiguration.framework in Frameworks */,
+				3DFE8B381F8758EA000BFD7C /* CoreLocation.framework in Frameworks */,
+				C19124E492DEAEDA2F70D308 /* Pods_Agent_Payzan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		186821BA817672B8B25CFDF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35500AC71FC43777005963E9 /* SystemConfiguration.framework */,
+				3DFE8B371F8758EA000BFD7C /* CoreLocation.framework */,
+				BC1924CF46068EE231AE07A0 /* Pods_Agent_Payzan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		350CB0BF1FC701B60059F951 /* HomeReq */ = {
+			isa = PBXGroup;
+			children = (
+				350CB0C01FC701F90059F951 /* AgentReqCountsVo.swift */,
+				350CB0C41FC702D00059F951 /* AgentReqCountResultVo.swift */,
+				350CB0C21FC702440059F951 /* AgentReqStatusCountVo.swift */,
+			);
+			name = HomeReq;
+			sourceTree = "<group>";
+		};
+		354CDF5D1FC8613900A56082 /* FinishReq */ = {
+			isa = PBXGroup;
+			children = (
+				354CDF621FC87F6F00A56082 /* DeleteDocVo.swift */,
+				354CDF631FC87F6F00A56082 /* DeleteDocResultVo.swift */,
+				354CDF5E1FC8616B00A56082 /* AgentRequestStatusHistoryInfoVo.swift */,
+				354CDF5F1FC8616B00A56082 /* AgentRequestStatusHistoryResultVo.swift */,
+				3D1FBD781FC8874F00C5D685 /* DeleteIdProofVo.swift */,
+				3D1FBD7A1FC8876C00C5D685 /* DeleteIdProofResultVo.swift */,
+			);
+			name = FinishReq;
+			sourceTree = "<group>";
+		};
+		35500A901FC42FE4005963E9 /* ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				35500A911FC43000005963E9 /* CustomDateFormatTransform.swift */,
+				35500A921FC43000005963E9 /* DataTransform.swift */,
+				35500A931FC43000005963E9 /* DateFormatterTransform.swift */,
+				35500A941FC43000005963E9 /* DateTransform.swift */,
+				35500A951FC43000005963E9 /* DictionaryTransform.swift */,
+				35500A961FC43000005963E9 /* EnumOperators.swift */,
+				35500A971FC43000005963E9 /* EnumTransform.swift */,
+				35500A981FC43000005963E9 /* FromJSON.swift */,
+				35500A991FC43000005963E9 /* HexColorTransform.swift */,
+				35500A9A1FC43000005963E9 /* ImmutableMappable.swift */,
+				35500A9B1FC43000005963E9 /* IntegerOperators.swift */,
+				35500A9C1FC43000005963E9 /* ISO8601DateTransform.swift */,
+				35500A9D1FC43000005963E9 /* Map.swift */,
+				35500A9E1FC43000005963E9 /* MapError.swift */,
+				35500A9F1FC43000005963E9 /* Mappable.swift */,
+				35500AA01FC43000005963E9 /* Mapper.swift */,
+				35500AA11FC43000005963E9 /* NSDecimalNumberTransform.swift */,
+				35500AA21FC43000005963E9 /* ObjectMapper.h */,
+				35500AA31FC43000005963E9 /* Operators.swift */,
+				35500AA41FC43000005963E9 /* ToJSON.swift */,
+				35500AA51FC43000005963E9 /* TransformOf.swift */,
+				35500AA61FC43000005963E9 /* TransformOperators.swift */,
+				35500AA71FC43000005963E9 /* TransformType.swift */,
+				35500AA81FC43000005963E9 /* URLTransform.swift */,
+			);
+			name = ObjectMapper;
+			sourceTree = "<group>";
+		};
+		35500AC01FC430EF005963E9 /* MapperVo */ = {
+			isa = PBXGroup;
+			children = (
+				355653D41FCD47BF00C65A86 /* HistoryModel */,
+				354CDF5D1FC8613900A56082 /* FinishReq */,
+				350CB0BF1FC701B60059F951 /* HomeReq */,
+				35FE520C1FC5E54D008F021F /* UpdateModel */,
+				35500ADE1FC46F50005963E9 /* PostModel */,
+				35500AD11FC46EAD005963E9 /* GetModel */,
+			);
+			name = MapperVo;
+			sourceTree = "<group>";
+		};
+		35500AD11FC46EAD005963E9 /* GetModel */ = {
+			isa = PBXGroup;
+			children = (
+				35500AD61FC46ECD005963E9 /* GetPersonalInfoVo.swift */,
+				35500AD71FC46ECD005963E9 /* GetPersonalResultVo.swift */,
+				35FE52191FC604D4008F021F /* GetDocumentsResultVo.swift */,
+				35FE521A1FC604D4008F021F /* GetDocumentsVo.swift */,
+				35500AD41FC46ECD005963E9 /* GetBankInfoVo.swift */,
+				35500AD51FC46ECD005963E9 /* GetBankResultVo.swift */,
+				35500AD31FC46ECD005963E9 /* GetIdProofsVo.swift */,
+				35500AD21FC46ECD005963E9 /* GetIdProofResultVo.swift */,
+				3D5B03041FF4D1AD00EE91B1 /* RefreshTokenVo.swift */,
+				3D5B03061FF4D2C100EE91B1 /* RefreshTokenResultVo.swift */,
+			);
+			name = GetModel;
+			sourceTree = "<group>";
+		};
+		35500ADE1FC46F50005963E9 /* PostModel */ = {
+			isa = PBXGroup;
+			children = (
+				35500AC11FC431BC005963E9 /* AgentPersonalnfoVo.swift */,
+				35500AC31FC43214005963E9 /* AgentPersonalResultVo.swift */,
+				35500AC91FC44D8F005963E9 /* AgentBankVo.swift */,
+				35500ACB1FC44DC0005963E9 /* AgentBankResultVo.swift */,
+				35500ACD1FC455F8005963E9 /* AgentIdProofVo.swift */,
+				35500ACF1FC45636005963E9 /* AgentIdProofResultVo.swift */,
+				35FE52081FC5A193008F021F /* AgentDocumentsVo.swift */,
+				35FE520A1FC5A1AB008F021F /* AgentDocResultVo.swift */,
+			);
+			name = PostModel;
+			sourceTree = "<group>";
+		};
+		355653D41FCD47BF00C65A86 /* HistoryModel */ = {
+			isa = PBXGroup;
+			children = (
+				355653D51FCD47D600C65A86 /* CommentHistoryInfoVo.swift */,
+				355653D61FCD47D600C65A86 /* CommenthistoryResultVo.swift */,
+			);
+			name = HistoryModel;
+			sourceTree = "<group>";
+		};
+		355E14A71F99E63E006A9DAE /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				355E14A81F99E65E006A9DAE /* UIView+Toast.h */,
+				355E14A91F99E65E006A9DAE /* UIView+Toast.m */,
+			);
+			name = Toast;
+			sourceTree = "<group>";
+		};
+		35FE520C1FC5E54D008F021F /* UpdateModel */ = {
+			isa = PBXGroup;
+			children = (
+				35FE520D1FC5E582008F021F /* UpdateAgentBankInfoVo.swift */,
+				35FE520E1FC5E582008F021F /* UpdateAgentBankResultVo.swift */,
+				35FE520F1FC5E582008F021F /* UpdateAgentPersonalInfoVo.swift */,
+				35FE52101FC5E582008F021F /* UpdateAgentPersonalResultVo.swift */,
+				35FE52111FC5E582008F021F /* UpdateAgentProofInfoVo.swift */,
+				35FE52121FC5E582008F021F /* UpdateAgentProofResultVo.swift */,
+			);
+			name = UpdateModel;
+			sourceTree = "<group>";
+		};
+		3D98E7FE1F85FEEB00DC8976 = {
+			isa = PBXGroup;
+			children = (
+				3D98E8091F85FEEB00DC8976 /* Agent Payzan */,
+				3D98E8081F85FEEB00DC8976 /* Products */,
+				831B896F0A7B5417B4E44F82 /* Pods */,
+				186821BA817672B8B25CFDF6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D98E8081F85FEEB00DC8976 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D98E8071F85FEEB00DC8976 /* Agent Payzan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D98E8091F85FEEB00DC8976 /* Agent Payzan */ = {
+			isa = PBXGroup;
+			children = (
+				3D4069DC1FCFE7430011C90A /* Agent Payzan.entitlements */,
+				3D98E80A1F85FEEB00DC8976 /* AppDelegate.swift */,
+				3D98E80E1F85FEEB00DC8976 /* Main.storyboard */,
+				3DF4CDB01F8B471F00C1F6DA /* Model */,
+				3DF4CDB11F8B472700C1F6DA /* View */,
+				3DF4CDB21F8B472C00C1F6DA /* Controllers */,
+				3D98E8111F85FEEB00DC8976 /* Assets.xcassets */,
+				3D146EFB20064393001DE7CD /* 384X100.jpg */,
+				3D146EFD2006439A001DE7CD /* 1536X250.jpg */,
+				355653D31FCD431B00C65A86 /* test.epub */,
+				3D98E8131F85FEEB00DC8976 /* LaunchScreen.storyboard */,
+				3D98E8161F85FEEB00DC8976 /* Info.plist */,
+				3D4EC4751FE3F99100936545 /* lang-en-DE.json */,
+				3D4EC4711FE3F95A00936545 /* lang-si.json */,
+				3D4EC4731FE3F96B00936545 /* lang-ta.json */,
+				3D4EC46F1FE3F94300936545 /* lang-en.json */,
+			);
+			path = "Agent Payzan";
+			sourceTree = "<group>";
+		};
+		3DF490571F8B9A7F0023E1D4 /* Agent Request Viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				3DF8E6151F88953D0095ABBB /* AgentRequestViewController.swift */,
+				3DF8E6171F8895BB0095ABBB /* AgentReqTableViewCell.swift */,
+				3DF8E6181F8895BB0095ABBB /* AgentReqTableViewCell.xib */,
+				3DF8E61B1F88A2C00095ABBB /* PhoneNoTableViewCell.swift */,
+				3DF8E61C1F88A2C00095ABBB /* PhoneNoTableViewCell.xib */,
+				3DF8E61F1F88A2DD0095ABBB /* ButtonsTableViewCell.swift */,
+				3DF8E6201F88A2DD0095ABBB /* ButtonsTableViewCell.xib */,
+			);
+			name = "Agent Request Viewcontroller";
+			sourceTree = "<group>";
+		};
+		3DF490581F8B9ACD0023E1D4 /* New Agent Registratuon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Agent Registratuon";
+			sourceTree = "<group>";
+		};
+		3DF4CDB01F8B471F00C1F6DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35500A901FC42FE4005963E9 /* ObjectMapper */,
+				35500AC01FC430EF005963E9 /* MapperVo */,
+				355E14A71F99E63E006A9DAE /* Toast */,
+				3DF4CDA81F8B46A400C1F6DA /* Constants.swift */,
+				3D1A1CBF1F8CA0610081F74E /* APIModel.swift */,
+				35500AC51FC436EB005963E9 /* ServiceController.swift */,
+				3D5B03081FF4D71900EE91B1 /* RefreshTokenAPIModel.swift */,
+				3D1A1CC31F8CDBB40081F74E /* ParsingModelClass.swift */,
+				355295641FAAED58007A2605 /* LoginParamsAPIModel.swift */,
+				3DDEC8F91FBC180C00E5849E /* HomeRequestAPIModel.swift */,
+				355295661FAAEE4D007A2605 /* AgentReqInfoParamsAPIModel.swift */,
+				3D1D828D1FAC4FB20060D2C2 /* UpdateAgentReqInfoParamsAPIModel.swift */,
+				3D1A1CC11F8CCEFE0081F74E /* ParametersAPIModel.swift */,
+				3D4B8B731FEA3FD200CA46E6 /* FeatureUse.swift */,
+				3DF4CDB31F8B560700C1F6DA /* Utilities.swift */,
+				3D65EB971F9F267400D82B65 /* Reachability.swift */,
+				3D37CF211FB02BFC00AD749D /* TextFieldDimensions.swift */,
+				356253D01FAC524A006FD52D /* GlobalSupportingClass.swift */,
+				355295681FAB0DCE007A2605 /* ShadowView.swift */,
+				3DF4CDA91F8B46A400C1F6DA /* NetworkServiceHandler.swift */,
+				3DF4CDAA1F8B46A400C1F6DA /* NetworkResponseParser.swift */,
+				3DF4CDAB1F8B46A400C1F6DA /* AddNewAddressViewController.swift */,
+				3539E44E1FB1781C005ACC7C /* Device.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3DF4CDB11F8B472700C1F6DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				355653DB1FCD48AF00C65A86 /* AgentHistoryTableViewCell.swift */,
+				355653DC1FCD48AF00C65A86 /* AgentHistoryTableViewCell.xib */,
+				3D533D841F976BD100DED599 /* RequestsTableViewCell.swift */,
+				3D533D851F976BD100DED599 /* RequestsTableViewCell.xib */,
+				3552956C1FAB5463007A2605 /* InProgressTableViewCell.swift */,
+				3552956D1FAB5463007A2605 /* InProgressTableViewCell.xib */,
+				3DFE8B2F1F874C81000BFD7C /* NewRegTableViewCell.swift */,
+				3DFE8B301F874C81000BFD7C /* NewRegTableViewCell.xib */,
+				3DFE8B331F874C9C000BFD7C /* MapTableViewCell.swift */,
+				3DFE8B341F874C9C000BFD7C /* MapTableViewCell.xib */,
+				3D4AC4751FC69BF0008C9951 /* IDProofsTableViewCell.swift */,
+				3D4AC4761FC69BF0008C9951 /* IDProofsTableViewCell.xib */,
+				350CB0C61FC716290059F951 /* DocTableViewCell.swift */,
+				350CB0C71FC716290059F951 /* DocTableViewCell.xib */,
+				3D3A74061FC302200026CAD4 /* DocsCollectionViewCell.swift */,
+				3D3A74071FC302200026CAD4 /* DocsCollectionViewCell.xib */,
+				3DF490571F8B9A7F0023E1D4 /* Agent Request Viewcontroller */,
+				3DF490581F8B9ACD0023E1D4 /* New Agent Registratuon */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3DF4CDB21F8B472C00C1F6DA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3DE6A8361FA2093C00E09E1C /* LoginViewController.swift */,
+				3D533D801F97610400DED599 /* HomeViewController.swift */,
+				355653D91FCD488800C65A86 /* AgentHistoryViewController.swift */,
+				3D533D821F9765AF00DED599 /* RequestsViewController.swift */,
+				3552956A1FAB5438007A2605 /* InProgressViewController.swift */,
+				3D98E8201F865BC600DC8976 /* NewAgentRegistrationViewController.swift */,
+				3DFAA1A71F8F82A6008DBEC7 /* BankDetailsViewController.swift */,
+				355E14B61F9A394E006A9DAE /* IdentityViewController.swift */,
+				355E14B41F9A0DF2006A9DAE /* AddDocumentViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		831B896F0A7B5417B4E44F82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F544185816513D38667BDBB2 /* Pods-Agent Payzan.debug.xcconfig */,
+				4B4394F3C83C9617F4C640BD /* Pods-Agent Payzan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D98E8061F85FEEB00DC8976 /* Agent Payzan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D98E8191F85FEEB00DC8976 /* Build configuration list for PBXNativeTarget "Agent Payzan" */;
+			buildPhases = (
+				E50901DB45697657E2422E69 /* [CP] Check Pods Manifest.lock */,
+				3D98E8031F85FEEB00DC8976 /* Sources */,
+				3D98E8041F85FEEB00DC8976 /* Frameworks */,
+				3D98E8051F85FEEB00DC8976 /* Resources */,
+				47BCDED66D83E3EECDBB9F0D /* [CP] Embed Pods Frameworks */,
+				CC03524DFB260F3596E30C5D /* [CP] Copy Pods Resources */,
+				3D3B87681FB60027003E0D7E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Agent Payzan";
+			productName = "Agent Payzan";
+			productReference = 3D98E8071F85FEEB00DC8976 /* Agent Payzan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D98E7FF1F85FEEB00DC8976 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Naveen;
+				TargetAttributes = {
+					3D98E8061F85FEEB00DC8976 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6KY3CH8YG8;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3D98E8021F85FEEB00DC8976 /* Build configuration list for PBXProject "Agent Payzan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D98E7FE1F85FEEB00DC8976;
+			productRefGroup = 3D98E8081F85FEEB00DC8976 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D98E8061F85FEEB00DC8976 /* Agent Payzan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D98E8051F85FEEB00DC8976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D98E8151F85FEEB00DC8976 /* LaunchScreen.storyboard in Resources */,
+				3D98E8121F85FEEB00DC8976 /* Assets.xcassets in Resources */,
+				3DF8E61A1F8895BB0095ABBB /* AgentReqTableViewCell.xib in Resources */,
+				3D4AC4781FC69BF0008C9951 /* IDProofsTableViewCell.xib in Resources */,
+				355653DE1FCD48AF00C65A86 /* AgentHistoryTableViewCell.xib in Resources */,
+				3552956F1FAB5463007A2605 /* InProgressTableViewCell.xib in Resources */,
+				3DF8E6221F88A2DD0095ABBB /* ButtonsTableViewCell.xib in Resources */,
+				3D533D871F976BD100DED599 /* RequestsTableViewCell.xib in Resources */,
+				3D3A74091FC302200026CAD4 /* DocsCollectionViewCell.xib in Resources */,
+				3D146EFE2006439A001DE7CD /* 1536X250.jpg in Resources */,
+				350CB0C91FC716290059F951 /* DocTableViewCell.xib in Resources */,
+				3D98E8101F85FEEB00DC8976 /* Main.storyboard in Resources */,
+				3D4EC4701FE3F94300936545 /* lang-en.json in Resources */,
+				3DFE8B361F874C9C000BFD7C /* MapTableViewCell.xib in Resources */,
+				3D4EC4761FE3F99100936545 /* lang-en-DE.json in Resources */,
+				3D146EFC20064393001DE7CD /* 384X100.jpg in Resources */,
+				3D4EC4741FE3F96B00936545 /* lang-ta.json in Resources */,
+				3DFE8B321F874C81000BFD7C /* NewRegTableViewCell.xib in Resources */,
+				3DF8E61E1F88A2C00095ABBB /* PhoneNoTableViewCell.xib in Resources */,
+				3D4EC4721FE3F95A00936545 /* lang-si.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47BCDED66D83E3EECDBB9F0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Agent Payzan/Pods-Agent Payzan-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Localize/Localize.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Agent Payzan/Pods-Agent Payzan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC03524DFB260F3596E30C5D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Agent Payzan/Pods-Agent Payzan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E50901DB45697657E2422E69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Agent Payzan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D98E8031F85FEEB00DC8976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355E14AA1F99E65E006A9DAE /* UIView+Toast.m in Sources */,
+				35500AB91FC43000005963E9 /* NSDecimalNumberTransform.swift in Sources */,
+				355295671FAAEE4D007A2605 /* AgentReqInfoParamsAPIModel.swift in Sources */,
+				35500ABB1FC43000005963E9 /* ToJSON.swift in Sources */,
+				35FE52161FC5E582008F021F /* UpdateAgentPersonalResultVo.swift in Sources */,
+				354CDF611FC8616B00A56082 /* AgentRequestStatusHistoryResultVo.swift in Sources */,
+				35FE52131FC5E582008F021F /* UpdateAgentBankInfoVo.swift in Sources */,
+				3DF4CDAE1F8B46A400C1F6DA /* NetworkResponseParser.swift in Sources */,
+				35500ABC1FC43000005963E9 /* TransformOf.swift in Sources */,
+				35FE521C1FC604D4008F021F /* GetDocumentsVo.swift in Sources */,
+				3D3A74081FC302200026CAD4 /* DocsCollectionViewCell.swift in Sources */,
+				354CDF651FC87F6F00A56082 /* DeleteDocResultVo.swift in Sources */,
+				3539E44F1FB1781C005ACC7C /* Device.swift in Sources */,
+				35500ABE1FC43000005963E9 /* TransformType.swift in Sources */,
+				350CB0C31FC702440059F951 /* AgentReqStatusCountVo.swift in Sources */,
+				35500AD01FC45636005963E9 /* AgentIdProofResultVo.swift in Sources */,
+				3D5B03051FF4D1AD00EE91B1 /* RefreshTokenVo.swift in Sources */,
+				35500AD81FC46ECD005963E9 /* GetIdProofResultVo.swift in Sources */,
+				35500AB31FC43000005963E9 /* IntegerOperators.swift in Sources */,
+				35500ADD1FC46ECD005963E9 /* GetPersonalResultVo.swift in Sources */,
+				3DF8E6161F88953D0095ABBB /* AgentRequestViewController.swift in Sources */,
+				3DF4CDB41F8B560700C1F6DA /* Utilities.swift in Sources */,
+				35FE521B1FC604D4008F021F /* GetDocumentsResultVo.swift in Sources */,
+				355653DA1FCD488800C65A86 /* AgentHistoryViewController.swift in Sources */,
+				356253D11FAC524A006FD52D /* GlobalSupportingClass.swift in Sources */,
+				355653DD1FCD48AF00C65A86 /* AgentHistoryTableViewCell.swift in Sources */,
+				35500AB41FC43000005963E9 /* ISO8601DateTransform.swift in Sources */,
+				350CB0C51FC702D00059F951 /* AgentReqCountResultVo.swift in Sources */,
+				35500AAB1FC43000005963E9 /* DateFormatterTransform.swift in Sources */,
+				35FE520B1FC5A1AB008F021F /* AgentDocResultVo.swift in Sources */,
+				3D1A1CC21F8CCEFE0081F74E /* ParametersAPIModel.swift in Sources */,
+				35FE52171FC5E582008F021F /* UpdateAgentProofInfoVo.swift in Sources */,
+				3D533D811F97610400DED599 /* HomeViewController.swift in Sources */,
+				35FE52091FC5A193008F021F /* AgentDocumentsVo.swift in Sources */,
+				355653D71FCD47D600C65A86 /* CommentHistoryInfoVo.swift in Sources */,
+				3D1D828E1FAC4FB20060D2C2 /* UpdateAgentReqInfoParamsAPIModel.swift in Sources */,
+				35500AC21FC431BC005963E9 /* AgentPersonalnfoVo.swift in Sources */,
+				3D1A1CC01F8CA0610081F74E /* APIModel.swift in Sources */,
+				355E14B51F9A0DF2006A9DAE /* AddDocumentViewController.swift in Sources */,
+				35500ABA1FC43000005963E9 /* Operators.swift in Sources */,
+				350CB0C81FC716290059F951 /* DocTableViewCell.swift in Sources */,
+				35500AB21FC43000005963E9 /* ImmutableMappable.swift in Sources */,
+				3D533D831F9765AF00DED599 /* RequestsViewController.swift in Sources */,
+				35500ABD1FC43000005963E9 /* TransformOperators.swift in Sources */,
+				3D37CF221FB02BFC00AD749D /* TextFieldDimensions.swift in Sources */,
+				35500AAC1FC43000005963E9 /* DateTransform.swift in Sources */,
+				35500ADC1FC46ECD005963E9 /* GetPersonalInfoVo.swift in Sources */,
+				3DF8E6211F88A2DD0095ABBB /* ButtonsTableViewCell.swift in Sources */,
+				35500AAA1FC43000005963E9 /* DataTransform.swift in Sources */,
+				3552956E1FAB5463007A2605 /* InProgressTableViewCell.swift in Sources */,
+				355E14B71F9A394E006A9DAE /* IdentityViewController.swift in Sources */,
+				3D65EB981F9F267400D82B65 /* Reachability.swift in Sources */,
+				35FE52151FC5E582008F021F /* UpdateAgentPersonalInfoVo.swift in Sources */,
+				355653D81FCD47D600C65A86 /* CommenthistoryResultVo.swift in Sources */,
+				3D1FBD7B1FC8876C00C5D685 /* DeleteIdProofResultVo.swift in Sources */,
+				354CDF601FC8616B00A56082 /* AgentRequestStatusHistoryInfoVo.swift in Sources */,
+				35500AB71FC43000005963E9 /* Mappable.swift in Sources */,
+				3D4B8B741FEA3FD200CA46E6 /* FeatureUse.swift in Sources */,
+				35500ACC1FC44DC0005963E9 /* AgentBankResultVo.swift in Sources */,
+				35500AB61FC43000005963E9 /* MapError.swift in Sources */,
+				35FE52141FC5E582008F021F /* UpdateAgentBankResultVo.swift in Sources */,
+				3DF4CDAF1F8B46A400C1F6DA /* AddNewAddressViewController.swift in Sources */,
+				350CB0C11FC701F90059F951 /* AgentReqCountsVo.swift in Sources */,
+				35500AB01FC43000005963E9 /* FromJSON.swift in Sources */,
+				3DFE8B351F874C9C000BFD7C /* MapTableViewCell.swift in Sources */,
+				3D5B03071FF4D2C100EE91B1 /* RefreshTokenResultVo.swift in Sources */,
+				3D98E8211F865BC600DC8976 /* NewAgentRegistrationViewController.swift in Sources */,
+				3D1FBD791FC8874F00C5D685 /* DeleteIdProofVo.swift in Sources */,
+				35500ADA1FC46ECD005963E9 /* GetBankInfoVo.swift in Sources */,
+				35500ADB1FC46ECD005963E9 /* GetBankResultVo.swift in Sources */,
+				3D4AC4771FC69BF0008C9951 /* IDProofsTableViewCell.swift in Sources */,
+				3DF4CDAC1F8B46A400C1F6DA /* Constants.swift in Sources */,
+				35500AB81FC43000005963E9 /* Mapper.swift in Sources */,
+				35500AA91FC43000005963E9 /* CustomDateFormatTransform.swift in Sources */,
+				35500AB51FC43000005963E9 /* Map.swift in Sources */,
+				35500ACE1FC455F8005963E9 /* AgentIdProofVo.swift in Sources */,
+				355295651FAAED58007A2605 /* LoginParamsAPIModel.swift in Sources */,
+				35500AAE1FC43000005963E9 /* EnumOperators.swift in Sources */,
+				35500ACA1FC44D8F005963E9 /* AgentBankVo.swift in Sources */,
+				3D1A1CC41F8CDBB40081F74E /* ParsingModelClass.swift in Sources */,
+				3DF8E6191F8895BB0095ABBB /* AgentReqTableViewCell.swift in Sources */,
+				3DDEC8FA1FBC180C00E5849E /* HomeRequestAPIModel.swift in Sources */,
+				354CDF641FC87F6F00A56082 /* DeleteDocVo.swift in Sources */,
+				35500AB11FC43000005963E9 /* HexColorTransform.swift in Sources */,
+				355295691FAB0DCE007A2605 /* ShadowView.swift in Sources */,
+				3D98E80B1F85FEEB00DC8976 /* AppDelegate.swift in Sources */,
+				3552956B1FAB5438007A2605 /* InProgressViewController.swift in Sources */,
+				3DF4CDAD1F8B46A400C1F6DA /* NetworkServiceHandler.swift in Sources */,
+				35500ABF1FC43000005963E9 /* URLTransform.swift in Sources */,
+				35FE52181FC5E582008F021F /* UpdateAgentProofResultVo.swift in Sources */,
+				35500AC41FC43214005963E9 /* AgentPersonalResultVo.swift in Sources */,
+				35500AAD1FC43000005963E9 /* DictionaryTransform.swift in Sources */,
+				3DE6A8371FA2093C00E09E1C /* LoginViewController.swift in Sources */,
+				35500AD91FC46ECD005963E9 /* GetIdProofsVo.swift in Sources */,
+				3DFE8B311F874C81000BFD7C /* NewRegTableViewCell.swift in Sources */,
+				3DF8E61D1F88A2C00095ABBB /* PhoneNoTableViewCell.swift in Sources */,
+				3D533D861F976BD100DED599 /* RequestsTableViewCell.swift in Sources */,
+				35500AC61FC436EB005963E9 /* ServiceController.swift in Sources */,
+				3DFAA1A81F8F82A6008DBEC7 /* BankDetailsViewController.swift in Sources */,
+				35500AAF1FC43000005963E9 /* EnumTransform.swift in Sources */,
+				3D5B03091FF4D71900EE91B1 /* RefreshTokenAPIModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D98E80E1F85FEEB00DC8976 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D98E80F1F85FEEB00DC8976 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D98E8131F85FEEB00DC8976 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D98E8141F85FEEB00DC8976 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D98E8171F85FEEB00DC8976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nagender Kodali (S5M9P6PHFH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nagender Kodali (S5M9P6PHFH)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6KY3CH8YG8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "a924e052-798e-4ce6-8f25-045b28bbb4b2";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D98E8181F85FEEB00DC8976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nagender Kodali (S5M9P6PHFH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nagender Kodali (S5M9P6PHFH)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6KY3CH8YG8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "a924e052-798e-4ce6-8f25-045b28bbb4b2";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D98E81A1F85FEEB00DC8976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F544185816513D38667BDBB2 /* Pods-Agent Payzan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Agent Payzan/Agent Payzan.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nagender Kodali (S5M9P6PHFH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nagender Kodali (S5M9P6PHFH)";
+				DEVELOPMENT_TEAM = 6KY3CH8YG8;
+				INFOPLIST_FILE = "Agent Payzan/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PayZan.PayZanExecutive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0972021a-d68b-4bd4-a768-04f5e5b5ba59";
+				PROVISIONING_PROFILE_SPECIFIER = PayZanExecutiveDevProfile;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_REFLECTION_METADATA_LEVEL = all;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3D98E81B1F85FEEB00DC8976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B4394F3C83C9617F4C640BD /* Pods-Agent Payzan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Agent Payzan/Agent Payzan.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nagender Kodali (S5M9P6PHFH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nagender Kodali (S5M9P6PHFH)";
+				DEVELOPMENT_TEAM = 6KY3CH8YG8;
+				INFOPLIST_FILE = "Agent Payzan/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PayZan.PayZanExecutive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0972021a-d68b-4bd4-a768-04f5e5b5ba59";
+				PROVISIONING_PROFILE_SPECIFIER = PayZanExecutiveDevProfile;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_REFLECTION_METADATA_LEVEL = all;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D98E8021F85FEEB00DC8976 /* Build configuration list for PBXProject "Agent Payzan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D98E8171F85FEEB00DC8976 /* Debug */,
+				3D98E8181F85FEEB00DC8976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D98E8191F85FEEB00DC8976 /* Build configuration list for PBXNativeTarget "Agent Payzan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D98E81A1F85FEEB00DC8976 /* Debug */,
+				3D98E81B1F85FEEB00DC8976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D98E7FF1F85FEEB00DC8976 /* Project object */;
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DocsCollectionViewCell" id="gTV-IL-0wX" customClass="DocsCollectionViewCell" customModule="Agent_Payzan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4Wg-9U-zCO">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfo-yP-Cq0">
+                        <rect key="frame" x="110" y="5" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="35" id="7hG-ek-kb3"/>
+                            <constraint firstAttribute="height" constant="35" id="gRP-c8-3g2"/>
+                        </constraints>
+                        <state key="normal" image="Close Button"/>
+                    </button>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="4Wg-9U-zCO" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Dr0-mL-urh"/>
+                <constraint firstItem="gfo-yP-Cq0" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="JAl-eU-6Ds"/>
+                <constraint firstAttribute="trailing" secondItem="gfo-yP-Cq0" secondAttribute="trailing" constant="5" id="b6X-Ew-ZDC"/>
+                <constraint firstItem="4Wg-9U-zCO" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="czZ-L9-bbl"/>
+                <constraint firstAttribute="bottom" secondItem="4Wg-9U-zCO" secondAttribute="bottom" id="eQ1-4s-f4H"/>
+                <constraint firstAttribute="trailing" secondItem="4Wg-9U-zCO" secondAttribute="trailing" id="rOR-tw-9Zo"/>
+            </constraints>
+            <connections>
+                <outlet property="closeBtn" destination="gfo-yP-Cq0" id="lLM-7U-Dyn"/>
+                <outlet property="docsImage" destination="4Wg-9U-zCO" id="bhN-24-6yt"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Close Button" width="50" height="50"/>
+    </resources>
+</document>

@@ -1,0 +1,227 @@
+{
+    "TitleType": "Title Type",
+    "FirstName": "First Name",
+    "MiddleName": "Middle Name",
+    "LastName": "Last Name",
+    "BusinessCategory": "Business Category",
+    "UserName": "User Name",
+    "Password": "Password",
+    "Gender": "Gender",
+    "MobileNumber": "Mobile Number",
+    "EmailId": "Email Id",
+    "Dateofbirth": "Date Of Birth",
+    "Address1": "Address 1",
+    "Address2": "Address 2",
+    "LandMark": "Landmark",
+    "ProvinanceName": "Province Name",
+    "DistrictName": "District Name",
+    "MandalName": "Mandal Name",
+    "VillageName": "Village Name",
+    "PostalCode": "Postal Code",
+    
+    
+    "app": {
+        
+        "Loading..." : "Loading...",
+        "Login": "Login",
+        "MobileNumber": "Mobile Number",
+        "Password": "Password",
+        "ChooseLanguage": "Choose Language",
+        "Logout": "Logout",
+        "AgentRequests": "Agent Requests",
+        "Yettogo": "Yet To Go",
+        "UnVerified": "Unverified",
+        "Verified": "Verified",
+        "NewAgent": "New Agent",
+        "Pick/HoldAgent": "Pick/Hold Agent",
+        "InProgress": "In Progress",
+        "ApprovedAgents": "Approved Agents",
+        "Home": "Home",
+        "AgentRequest": "Agent Request",
+        
+        "NewAgentRegistration": "New Agent Registration",
+        "Personal": "Personal",
+        "Bank": "Bank",
+        "IDProofs": "ID Proofs",
+        "Documents": "Documents",
+        "BankDetails": "Bank Details",
+        "AccountHolderName": "Account Holder Name",
+        
+        "AccountNumber": "Account Number",
+        "BankName": "Bank Name",
+        "BranchName": "Branch Name",
+        "SWIFTCode": "SWIFT Code",
+        "Update": "Update",
+        "Next": "Next",
+        
+        
+        
+        
+        
+        "IdentityProofs": "Identity Proofs",
+        "PersonalIdentityProof": "Personal Identity Proof",
+        "Name": "Name",
+        "Number": "Number",
+        "FinancialIdentityProof": "Financial Identity Proof",
+        
+        
+        "Add": "Add",
+        "Cancel": "Cancel",
+        "AggrementDocuments": "Agreement Documents",
+        "AddDocuments": "Add Documents",
+        "UploadDocuments": "Upload Documents",
+        "Finish": "Finish",
+        "AgentHistory": "Agent History",
+        
+        
+        
+        "Alert": "Alert",
+        "YoursessionhasbeentimedoutPleaseloginagain": "Your Session Has Been Timed Out. Please Login Again",
+        "Warning": "Warning",
+        "Servererror": "Server Error",
+        "Therequesttimeout": "The Request Time Out",
+        "PleaseCheckInternet": "Please Check Internet",
+        
+        
+        "Pleasecheckyourinternetconnection!": "Please Check Your Internet Connection!",
+        "Therequesttimedout": "The Request Timed Out.",
+        
+        
+        "PleaseselecttitleType": "Please Select Title Type",
+        "Pleaseselectpersonalidentityprooftype": "Please Select Personal Identity Proof Type",
+        "Pleaseenterpersonalidentityproofnumber": "Please Enter Personal Identity Proof Number",
+        "Pleaseselectfinancialidentityprooftype": "Please Select Financial Identity Proof Type",
+        "PleaseenterfinancialidentityproofNumber": "Please Enter Financial Identity Proof Number",
+        "Pleaseselectbussinesscategory": "Please Select Business Category",
+        "Pleaseprovideusername": "Please Enter Username",
+        "Pleaseprovidepassword": "Please Enter Password",
+        "Pleaseselectgender": "Please Select Gender",
+        "Pleaseprovidecurrentlocation": "Please Enter Current Location",
+        "Pleaseselectyourprovince": "Please Select Province",
+        "Pleaseselectyourdistrict": "Please Select District",
+        "Pleaseselectyourmandal": "Please Select Mandal",
+        "Pleaseselectyourvillage": "Please Select Village",
+        "Pleaseprovideyouraddress1": "Please Enter Address1",
+        "Pleaseprovideyouraddress2": "Please Enter Address2",
+        "Pleaseprovideyourlandmark": "Please Enter Landmark",
+        "Pleaseprovideyourcomments": "Please Enter Comments",
+        "Pleaseprovidevalidemailid": "Please Enter Valid Email Id",
+        "Pleaseprovideemailid": "Please Enter Email Id",
+        
+        "Pleaseenterwalletamount": "Please Enter Wallet Amount",
+        "Passwordshouldbeofminimum5character": "Password Should Be Of Minimum 5 Characters",
+        
+        "Pleaseprovideyourfirstname": "Please Enter First Name",
+        "Pleaseprovideyourlastname": "Please Enter Last Name",
+        "Pleaseprovideyourmobilenumber": "Please Enter Mobile Number",
+        "Pleaseprovide10digitsmobilenumber": "Please Enter 10 Digits Mobile Number",
+        "Pleaseconfirmpassword": "Please Confirm Password",
+        "Passwordmissmatch": "Password Miss Match",
+        "Pleaseprovidedateofbirth": "Please Select Date Of Birth",
+        "NetworkiseitherslowornotConnected": "Network Is Either Slow Or Not Connected",
+        "Invalidusernameorpassword": "Invalid Username Or Password",
+        "SomeErrorOccured": "Some Error Occured",
+        "SuccessfullyDone": "Successfully Done",
+        "PleaseEnterValidPin": "Please Enter Valid Pin",
+        "PleaseEnterValidInformation": "Please Enter Valid Information",
+        
+        "Passwordsmusthaveatleastonenonalphanumericcharacter": "Passwords Must Have At Least One Non Alphanumeric Character",
+        "Passwordsmusthaveatleastoneuppercase('A'-'Z')": "Passwords Must Have At Least One Uppercase ('A'-'Z')",
+        "Passwordsmusthaveatleastonedigit('0'-'9')": "Passwords Must Have At Least One Digit ('0'-'9')",
+        "PasswordMustbebetween4to30Characters": "Please Enter Minimum 8 Characters",
+        "Emailshouldbeofminimum4character": "Please Enter Minimum 5 Characters",
+        
+        "Mobilenumbershouldstartwith('7'-'9')": "Mobilenumber Should Start With ('7'-'9')",
+        "InvalidUsernameorPassword": "Invalid Username Or Password",
+        
+        
+        "Status:": "Status:",
+        "AssignTo:": "Assign To:",
+        "Comment:": "Comment:",
+        "CreatedDate:": "Created Date:",
+        
+        "Hold": "Hold",
+        "PickUp": "Pick",
+        "Comments": "Comments",
+        
+        
+        "ConvertAsAgent": "Convert As Agent",
+        "Review": "Review",
+        
+        
+        "CurrentLocation": "Current Location",
+        "LocationonMap": "Location On Map",
+        
+        "Recharge": "Recharge",
+        
+        
+        
+        "Message": "Message",
+        "Pleaseenterrequiredfields" : "Please Enter Required Fields",
+        "Pleaseenteryourmobilenumberoremail": "Please Enter Mobile Number",
+        "Pleaseenteryourpassword": "Please Enter Password",
+        "Worning": "Worning",
+        "Mobilenumbershouldbe10digits": "Please Enter 10 Digit Mobile Number",
+        "NoRecordsFound": "No Records Found",
+        "Pleaseenteryourcomments": "Please Enter Comments",
+        
+        "Success": "Success",
+        "RecordUpdatedSuccessfully": "Record Updated Successfully",
+        "Submit": "Submit",
+        
+        
+        "SelectBank": "Select Bank",
+        "SelectBranch": "Select Branch",
+        "SelectSwiftCode": "Select Swift Code",
+        "Pleaseenterallfields": "Please Enter All Fields",
+        "AccountHolderNamecannotexceed40characters": "Account Holder Name Cannot Exceed 40 Characters",
+        "AccountNumbercannotexceed40characters": "Account Number Cannot Exceed 40 Characters",
+        "Already": "Already",
+        "Added": "Added",
+        "AreyousurewanttodeletethisIdentityproof?": "Are You Sure Want To Delete This Identity Proof?",
+        "Pleaseaddidentityproofs": "Please Add Identity Proofs",
+        "idproofsaddedsuccesfully" : "Id Proofs Added Successfully",
+        "Pleaseselectbank" : "Please Select Bank",
+        
+        
+        "SelectImage": "Select Image",
+        "FromGallery": "From Gallery",
+        "FromCamera": "From Camera",
+        "UploadDocument": "Upload Document",
+        "Areyousurewanttouploadthisdocument?": "Are You Sure Want To Upload This Document?",
+        "Thatdocumentnotaccessing": "That Document Not Accessing",
+        "OK": "OK",
+        "Yes" : "Yes",
+        "No"  : "No",
+        "Saved!": "Saved!",
+        "Saveerror" : "Save Error",
+        "Youralteredimagehasbeensavedtoyourphotos": "Your Altered Image Has Been Saved To Your Photos.",
+        
+        "Areyousurewanttodeletethisdocument?": "Are You Sure Want To Delete This Document?",
+        "Areyousurewanttodeletethisimage?": "Are You Sure Want To Delete This Image?",
+        "Pleaseadddocuments": "Please Add Documents",
+        "rightButtonTitle" : "Done",
+        "PayZanExecutive" : "PayZan Executive",
+        "firstNameMustbebetween4to30Characters" : "Please Enter Minimum 3 Characters",
+        "lastNameMustbebetween4to30Characters" : "Last Name Must Be between 3 to 40 Characters",
+        "middleNameMustbebetween4to30Characters" : "Middle Name Must Be Between 3 to 40 Characters",
+        
+        "AccountHolderName" : "Account Holder Name",
+        "AccountNumber" : "Account Number",
+        "BankName" : "Bank Name",
+        "BranchName" : "Branch Name",
+        "SWIFT Code" : "SWIFT Code",
+        "SelectIDProof" : "Select ID Proof",
+        "AreYouSureWantToLogout" : "Are You Sure Want To Logout?",
+        "PleaseAddDocuments" : "Please Add Documents",
+        "Pleaseloginintoyourpayzanaccount" : "Please Login Into PayZan Account",
+        "Pleaseentervalidmobilenumber" : "Please Enter Valid Mobile Number",
+        "PleaseentervalidPassword" : "Please Enter Valid Password",
+        "Done" : "Done"
+        
+        
+        
+        
+    }
+    
+}

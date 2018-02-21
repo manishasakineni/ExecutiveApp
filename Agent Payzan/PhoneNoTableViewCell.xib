@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PhoneNoTableViewCell" rowHeight="37" id="KGk-i7-Jjw" customClass="PhoneNoTableViewCell" customModule="Agent_Payzan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="37"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="37"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KyX-kK-vQK">
+                        <rect key="frame" x="43" y="3" width="266" height="30"/>
+                        <color key="tintColor" red="0.52156865600000002" green="0.1098039225" blue="0.050980392839999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xW9-YC-BLl">
+                        <rect key="frame" x="10" y="3" width="32" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="X08-9t-byt"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="blL-fF-pJP">
+                        <rect key="frame" x="12" y="5" width="28" height="26"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="28" id="WtA-78-IuH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <state key="normal" title="+94">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="blL-fF-pJP" secondAttribute="bottom" constant="6" id="Bm0-Gy-sBM"/>
+                    <constraint firstItem="blL-fF-pJP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="CaF-VP-qlJ"/>
+                    <constraint firstItem="xW9-YC-BLl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Coh-ze-f29"/>
+                    <constraint firstAttribute="bottom" secondItem="KyX-kK-vQK" secondAttribute="bottom" constant="4" id="Ffv-SZ-0nL"/>
+                    <constraint firstAttribute="trailing" secondItem="KyX-kK-vQK" secondAttribute="trailing" constant="11" id="KHI-dU-po6"/>
+                    <constraint firstAttribute="bottom" secondItem="xW9-YC-BLl" secondAttribute="bottom" constant="3.5" id="ckO-lJ-NBn"/>
+                    <constraint firstItem="KyX-kK-vQK" firstAttribute="leading" secondItem="xW9-YC-BLl" secondAttribute="trailing" constant="1" id="iJx-Y5-emF"/>
+                    <constraint firstItem="KyX-kK-vQK" firstAttribute="leading" secondItem="blL-fF-pJP" secondAttribute="trailing" constant="3" id="nJ0-8T-1Ce"/>
+                    <constraint firstItem="blL-fF-pJP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="xOQ-UO-NLz"/>
+                    <constraint firstItem="KyX-kK-vQK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="3" id="xdZ-XE-e3x"/>
+                    <constraint firstItem="xW9-YC-BLl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="3" id="ySb-v8-LzC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="phoneNoDropdownBtn" destination="blL-fF-pJP" id="dN0-LT-Jwn"/>
+                <outlet property="phoneNoTF" destination="KyX-kK-vQK" id="xhj-1n-JN5"/>
+            </connections>
+            <point key="canvasLocation" x="35" y="53.5"/>
+        </tableViewCell>
+    </objects>
+</document>
