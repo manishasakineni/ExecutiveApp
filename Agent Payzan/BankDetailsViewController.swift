@@ -169,7 +169,16 @@ class BankDetailsViewController: UIViewController,UIPickerViewDelegate,UIPickerV
         branchNameTF.delegate = self
         swiftCodeTF.delegate = self
         swiftCodeTF.isUserInteractionEnabled = false
-        branchNameTF.isUserInteractionEnabled = false
+        
+//        if branchNameTF.text != "" {
+//        branchNameTF.isUserInteractionEnabled = true
+//        }
+//        
+//        else {
+//        
+//        branchNameTF.isUserInteractionEnabled = false
+//        }
+        
         accountHolderTF.keyboardType = .default
         accountNoTF.keyboardType = .numberPad
 
@@ -221,7 +230,7 @@ class BankDetailsViewController: UIViewController,UIPickerViewDelegate,UIPickerV
     
         if fromBack == true {
             
-            getbankDetailssApiCall()
+            getAgentbankDetailssApiCall()
         
             self.personalBtn.isUserInteractionEnabled = true
             self.bankBtn.isUserInteractionEnabled = false
@@ -232,7 +241,7 @@ class BankDetailsViewController: UIViewController,UIPickerViewDelegate,UIPickerV
         
         if fromBack == false {
             
-            getbankDetailssApiCall()
+            getAgentbankDetailssApiCall()
             
             self.personalBtn.isUserInteractionEnabled = true
             self.bankBtn.isUserInteractionEnabled = false
@@ -250,7 +259,7 @@ class BankDetailsViewController: UIViewController,UIPickerViewDelegate,UIPickerV
     
     func loadData() {
         //code to execute during refresher
-        getbankDetailssApiCall()
+     //   getAgentbankDetailssApiCall()
         //Call this to stop refresher
     }
     
@@ -267,7 +276,7 @@ class BankDetailsViewController: UIViewController,UIPickerViewDelegate,UIPickerV
     
     func scrollViewWillBeginDragging(_ scrollView: UIScrollView){
         
-        getbankDetailssApiCall()
+        getAgentbankDetailssApiCall()
         print("scrollViewWillBeginDragging")
         
         
@@ -303,7 +312,7 @@ class BankDetailsViewController: UIViewController,UIPickerViewDelegate,UIPickerV
     
 //MARK: - Api call for get bank Details 
     
-    func getbankDetailssApiCall(){
+    func getAgentbankDetailssApiCall(){
         
         //   UserDefaults.standard.set(self.userDetailsDoictionary.id, forKey: AId)
         
@@ -344,7 +353,8 @@ class BankDetailsViewController: UIViewController,UIPickerViewDelegate,UIPickerV
                                 self.swiftCodeUpdate  = (IDInfo?.SwiftCode)!
                                 self.holderNameUpdate = (IDInfo?.AccountHolderName)!
                                 self.accountNoUpdate  = (IDInfo?.AccountNumber)!
-                                self.branchID = (IDInfo?.BankId)!
+                                self.branchID         = (IDInfo?.BankId)!
+                                self.bankID           = (IDInfo?.BankTypeId)!
                                 
                                 
                                 self.bankNameTF.text      = (IDInfo?.BankName)!
@@ -352,6 +362,9 @@ class BankDetailsViewController: UIViewController,UIPickerViewDelegate,UIPickerV
                                 self.accountHolderTF.text = (IDInfo?.AccountHolderName)!
                                 self.accountNoTF.text     = (IDInfo?.AccountNumber)!
                                 self.swiftCodeTF.text     = (IDInfo?.SwiftCode)!
+                                
+                                
+                                self.getBankBranchesAndSwiftCode()
                                 
                             }
                                 
@@ -378,7 +391,7 @@ class BankDetailsViewController: UIViewController,UIPickerViewDelegate,UIPickerV
                     
                     self.serviceController.refreshTokenForLogin(self, successHandler: { (json) in
                         
-                        self.self.getbankDetailssApiCall()
+                        self.self.getAgentbankDetailssApiCall()
                         
                         
                     }, failureHandler: { (failureMassage) in
@@ -510,6 +523,7 @@ class BankDetailsViewController: UIViewController,UIPickerViewDelegate,UIPickerV
                     
                     self.bankBranchesArray.removeAll()
                     self.swiftCodesAry.removeAll()
+                    
                     for branchDetails in bankBranchesAndSwiftCodeAry{
                         
                        
@@ -901,7 +915,7 @@ class BankDetailsViewController: UIViewController,UIPickerViewDelegate,UIPickerV
             self.branchNameTF.inputView = self.pickerView
           //  self.swiftCodeTF.inputView = self.pickerView
             
-            if( getBankDetailsArray.count > 0){
+            if(getBankDetailsArray.count > 0){
                 if let value = Int(getBankDetailsArray[row].id){
                     bankID = value
                 }

@@ -125,6 +125,13 @@ class AgentHistoryViewController: UIViewController,UITableViewDataSource,UITable
     }
     
     
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        
+        
+        
+    }
+    
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "AgentHistoryTableViewCell") as! AgentHistoryTableViewCell
