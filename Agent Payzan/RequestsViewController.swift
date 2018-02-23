@@ -60,7 +60,7 @@ class RequestsViewController: UIViewController,UITableViewDelegate,UITableViewDa
         
        
         
-      //  textView.delegate = self
+      
         
         customView.autocorrectionType = .no
         
@@ -1022,6 +1022,8 @@ class RequestsViewController: UIViewController,UITableViewDelegate,UITableViewDa
                                 Utilities.sharedInstance.alertWithOkButtonAction(vc: self, alertTitle: "app.Success".localize(), messege: "app.RecordUpdatedSuccessfully".localize(), clickAction: {
                                     
                                     
+                                    
+                                    
                                 })
                                 
                                 let updateAgetAgentRequestArray = ParsingModelClass.sharedInstance.updateAgentRequesgtInfoAPIModelParsing(object: json as AnyObject?)
@@ -1044,6 +1046,8 @@ class RequestsViewController: UIViewController,UITableViewDelegate,UITableViewDa
                                     }
                                 }
                                 
+                                
+                                self.filteredAgentArr.removeAll()
                                 self.getAgentRequestInfoAPICall()
                                 self.requesttableView.reloadData()
                             }
