@@ -13,7 +13,7 @@ import TextFieldEffects
 
 class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,UIPickerViewDelegate,UIPickerViewDataSource,MKMapViewDelegate,CLLocationManagerDelegate,UITextFieldDelegate {
     
-    
+    let todayDate = NSDate()
     var alertTag = Int()
     
     var newVC1           : Int    = 0
@@ -1070,8 +1070,9 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
         
-          datePicker.endEditing(true)
+        //  datePicker.endEditing(true)
           activeTextField = textField
+        self.datePicker.endEditing(true)
         
         if self.isResponseFromServer == true{
         
@@ -1155,7 +1156,7 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
                 textField.clearButtonMode = .never
                 textField.inputView = datePicker
                 
-                let todayDate = NSDate()
+               // let todayDate = NSDate()
                 self.datePicker.maximumDate = todayDate as Date
                 datePicker.datePickerMode = .date
                 let toolBar = UIToolbar()
@@ -1163,9 +1164,13 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
                 
                 toolBar.sizeToFit()
                 
-                let doneButton = UIBarButtonItem(barButtonSystemItem: .done, target: nil, action: #selector(donePressed))
+                let doneButton = UIBarButtonItem(barButtonSystemItem: .done, target: nil, action: #selector(dateDoneClicked))
                 
-                toolBar.setItems([doneButton], animated: true)
+                let spaceButton = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
+                
+                let cancelButton = UIBarButtonItem(barButtonSystemItem: .cancel, target: nil, action: #selector(dateCancelClicked))
+                
+                toolBar.setItems([cancelButton, spaceButton, doneButton], animated: false)
                 
                 textField.inputAccessoryView = toolBar
                 
@@ -1336,7 +1341,7 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
             textField.clearButtonMode = .never
             textField.inputView = datePicker
             
-            let todayDate = NSDate()
+            
             self.datePicker.maximumDate = todayDate as Date
             datePicker.datePickerMode = .date
             let toolBar = UIToolbar()
@@ -1345,13 +1350,13 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
             toolBar.tintColor = #colorLiteral(red: 0.5021751523, green: 0.01639934443, blue: 0, alpha: 1)
             toolBar.sizeToFit()
             
-            let doneButton = UIBarButtonItem(barButtonSystemItem: .done, target: nil, action: #selector(donePressed))
+            let doneButton = UIBarButtonItem(barButtonSystemItem: .done, target: nil, action: #selector(dateDoneClicked))
 
             let spaceButton = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
             
-            let cancelButton = UIBarButtonItem(barButtonSystemItem: .cancel, target: nil, action: #selector(cancelClicked))
+            let cancelButton = UIBarButtonItem(barButtonSystemItem: .cancel, target: nil, action: #selector(dateCancelClicked))
             
-            toolBar.setItems([doneButton, spaceButton, cancelButton], animated: false)
+            toolBar.setItems([cancelButton, spaceButton, doneButton], animated: false)
             
             textField.inputAccessoryView = toolBar
             
@@ -1440,7 +1445,7 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
     }
 
     
-    func donePressed(){
+    func dateDoneClicked(){
         
         let dateFormatter = DateFormatter()
         dateFormatter.dateStyle = .long
@@ -1456,10 +1461,11 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
         resignFirstResponder()
     }
     
-    func cancelClicked(){
+    func dateCancelClicked(){
     
         self.view.endEditing(true)
         self.datePicker.endEditing(true)
+        
         newRegTableview.reloadData()
         activeTextField.endEditing(true)
         
@@ -1752,7 +1758,7 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
   
         }
     }
-    // textField.endEditing(true)
+    
         
          }
     

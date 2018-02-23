@@ -887,6 +887,8 @@ class AddDocumentViewController: UIViewController,UIImagePickerControllerDelegat
         let size = CGSize(width: 400, height: 400)
         newImage = resizeImage(image: image,targetSize : size)
         
+        
+        
         selectedImagesArray.append(newImage)
         
         docsCollectionView.reloadData()
@@ -986,10 +988,10 @@ class AddDocumentViewController: UIViewController,UIImagePickerControllerDelegat
             self.saveBtn.isHidden = true
             
         }
-        else {
-          
-            cell.docsImage.image = newImage
-        }
+//        else {
+//          
+//            cell.docsImage.image = newImage
+//        }
         
         cell.closeBtn?.layer.setValue(indexPath.row, forKey: "index")
         cell.closeBtn.addTarget(self, action: #selector(closeBtnClicked), for: .touchUpInside)
@@ -1222,7 +1224,18 @@ class AddDocumentViewController: UIViewController,UIImagePickerControllerDelegat
          Utilities.sharedInstance.alertWithOkAndCancelButtonAction(vc: self, alertTitle: "app.Alert".localize(), messege: "app.Areyousurewanttodeletethisimage?".localize()) {
         
         self.selectedImagesArray.remove(at: i)
-        
+            
+            if self.selectedImagesArray.count > 0{
+                
+                self.saveBtn.isHidden = false
+            
+            }
+            else {
+            
+            self.saveBtn.isHidden = true
+            
+            }
+            
         self.docTableView.reloadData()
         self.getAllDocumentsAPICall()
           

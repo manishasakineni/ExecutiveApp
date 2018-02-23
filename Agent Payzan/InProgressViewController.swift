@@ -472,6 +472,12 @@ class InProgressViewController: UIViewController,UITableViewDataSource,UITableVi
         
     }
     
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        //  NSLog("Table view scroll detected at offset: %f", scrollView.contentOffset.y)
+        
+        searchController.searchBar.resignFirstResponder()
+    }
+    
 //MARK: - Search bar for searching results
     
     func updateSearchResults(for searchController: UISearchController) {
@@ -576,6 +582,7 @@ class InProgressViewController: UIViewController,UITableViewDataSource,UITableVi
                                 self.view.addSubview(self.inProgressTableView)
                               //  self.navigationController?.popViewController(animated: true)
                                 
+                                     self.filteredAgentArr.removeAll()
                                     self.getAgentRequestInfoAPICall()
                                 
                             })

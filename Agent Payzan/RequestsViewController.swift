@@ -450,6 +450,13 @@ class RequestsViewController: UIViewController,UITableViewDelegate,UITableViewDa
         
     }
     
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+      //  NSLog("Table view scroll detected at offset: %f", scrollView.contentOffset.y)
+        
+        searchController.searchBar.resignFirstResponder()
+    }
+    
 //MARK: - Search bar for searching results
     
     func updateSearchResults(for searchController: UISearchController) {
@@ -539,6 +546,8 @@ class RequestsViewController: UIViewController,UITableViewDelegate,UITableViewDa
                                 
                                 //  self.navigationController?.popViewController(animated: true)
                                 DispatchQueue.main.async {
+                                    
+                                    self.filteredAgentArr.removeAll()
                                     self.getAgentRequestInfoAPICall()
                                 }
                             })
