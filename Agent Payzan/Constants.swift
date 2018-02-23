@@ -12,8 +12,8 @@ import Foundation
 
 // API Urls
 
-//let BASE_API = "http://payzandev1.azurewebsites.net/api/"
-let BASE_API = "http://192.168.1.126/PayZanAPI/api/"
+let BASE_API = "http://payzan.azurewebsites.net/api/"
+//let BASE_API = "http://192.168.1.126/PayZanAPI/api/"
 //let BASE_API = "http://192.168.1.126/PayZanService/api/"
 
 

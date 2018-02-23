@@ -283,7 +283,10 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
       //  self.response = "nil"
         eyeiconClick = true
         
+        
         newRegTableview.setContentOffset(CGPoint.zero, animated: true)
+        
+   
         
       self.placeholdersAry =   ["TitleType".localize(value: "Title Type"),"FirstName".localize(value: "First Name"),"MiddleName".localize(value: "Middle Name"),"LastName".localize(value: "Last Name"),"BusinessCategory".localize(value: "Business Category"),"MobileNumber".localize(value: "Mobile Number"),"Password".localize(value: "Password"),"Gender".localize(value: "Gender"),"EmailId".localize(value: "Email Id"),"Dateofbirth".localize(value: "D.O.B"),"Address1".localize(value: "Address 1"),"Address2".localize(value: "Address 2"),"LandMark".localize(value: "LandMark"),"ProvinanceName".localize(value: "Provinance Name"),"DistrictName".localize(value: "District Name"),"MandalName".localize(value: "Mandal Name"),"VillageName".localize(value: "Village Name"),"PostalCode".localize(value: "Postal Code"),""]
         
@@ -353,6 +356,8 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
             
             
         }
+        
+        
         
     }
     

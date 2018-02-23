@@ -302,9 +302,9 @@ class IdentityViewController: UIViewController,UIPickerViewDelegate,UIPickerView
     
     func scrollViewWillBeginDragging(_ scrollView: UIScrollView){
         
-        getAllIDProofsApiCall()
-        getpersonalIDNames()
-        getfinancialNames()
+//        getAllIDProofsApiCall()
+//        getpersonalIDNames()
+//        getfinancialNames()
         print("scrollViewWillBeginDragging")
         
         

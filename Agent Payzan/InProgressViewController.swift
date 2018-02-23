@@ -133,6 +133,12 @@ class InProgressViewController: UIViewController,UITableViewDataSource,UITableVi
         
      //   self.searchController.isActive = true
         
+//        inProgressTableView.setContentOffset(CGPoint.zero, animated: true)
+//        
+//        let indexPath : IndexPath = IndexPath(row: 0, section: 0)
+//        
+//        self.inProgressTableView.scrollToRow(at: indexPath, at: UITableViewScrollPosition.top, animated: false)
+        
     }
     
     override func viewWillDisappear(_ animated: Bool) {

@@ -270,6 +270,8 @@ class BankDetailsViewController: UIViewController,UIPickerViewDelegate,UIPickerV
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         
         
+        
+        
         print("scrollViewDidScroll")
         
     }
