@@ -135,6 +135,10 @@ class RequestsViewController: UIViewController,UITableViewDelegate,UITableViewDa
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        
+        PageIndex = 0
+        totalPages = 0
+        
         self.requesttableView.frame = CGRect(x: self.view.frame.origin.x, y: 130, width: self.view.frame.size.width, height: self.view.frame.size.height)
         
         self.view.addSubview(self.requesttableView)
@@ -598,6 +602,10 @@ class RequestsViewController: UIViewController,UITableViewDelegate,UITableViewDa
     }
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        
+        PageIndex = 0
+        totalPages = 0
+        
         self.presentingViewController?.dismiss(animated: true, completion: nil)
         self.dismiss(animated: true, completion: nil)
         

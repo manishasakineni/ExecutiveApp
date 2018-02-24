@@ -121,6 +121,12 @@ class InProgressViewController: UIViewController,UITableViewDataSource,UITableVi
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        
+        PageIndex = 0
+        totalPages = 0
+        
+        
+        
         self.inProgressTableView.frame = CGRect(x: self.view.frame.origin.x, y: 130, width: self.view.frame.size.width, height: self.view.frame.size.height)
         
         agentDetailsArray.removeAll()
@@ -133,8 +139,8 @@ class InProgressViewController: UIViewController,UITableViewDataSource,UITableVi
         
      //   self.searchController.isActive = true
         
-//        inProgressTableView.setContentOffset(CGPoint.zero, animated: true)
-//        
+ //       self.inProgressTableView.setContentOffset(CGPoint.zero, animated: true)
+        
 //        let indexPath : IndexPath = IndexPath(row: 0, section: 0)
 //        
 //        self.inProgressTableView.scrollToRow(at: indexPath, at: UITableViewScrollPosition.top, animated: false)
@@ -248,6 +254,18 @@ class InProgressViewController: UIViewController,UITableViewDataSource,UITableVi
                     
 
                     self.inProgressTableView.reloadData()
+                    
+//                    if self.PageIndex == 0{
+//                        
+//                    self.inProgressTableView.setContentOffset(CGPoint.zero, animated: true)
+//                        
+//                    let indexPath : IndexPath = IndexPath(row: 0, section: 0)
+//                        
+//                    self.inProgressTableView.scrollToRow(at: indexPath, at: UITableViewScrollPosition.top, animated: false)
+//                    
+//                    }
+                    
+                    
                 }
                     
                 else{
@@ -639,6 +657,9 @@ class InProgressViewController: UIViewController,UITableViewDataSource,UITableVi
     }
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        
+        PageIndex = 0
+        totalPages = 0
         
         self.inProgressTableView.frame = CGRect(x: self.view.frame.origin.x, y: 130, width: self.view.frame.size.width, height: self.view.frame.size.height)
         
