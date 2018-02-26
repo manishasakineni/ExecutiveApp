@@ -13,22 +13,6 @@
             timestampString = "541086885.499913"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2486"
-            endingLineNumber = "2486"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Agent Payzan/NewAgentRegistrationViewController.swift"
-            timestampString = "541086885.499913"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
             startingLineNumber = "453"
             endingLineNumber = "453"
             landmarkName = "getPersonalInfoService()"
@@ -74,7 +58,7 @@
                   moduleName = "Agent Payzan"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/NewAgentRegistrationViewController.swift"
-                  timestampString = "541145883.17301"
+                  timestampString = "541340829.088183"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "514"
@@ -89,7 +73,7 @@
                   moduleName = "Agent Payzan"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/NewAgentRegistrationViewController.swift"
-                  timestampString = "541145883.1753269"
+                  timestampString = "541340829.09041"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "514"
@@ -330,7 +314,7 @@
                   moduleName = "Agent Payzan"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/BankDetailsViewController.swift"
-                  timestampString = "541145883.2383699"
+                  timestampString = "541340829.153118"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "341"
@@ -345,7 +329,7 @@
                   moduleName = "Agent Payzan"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/BankDetailsViewController.swift"
-                  timestampString = "541145883.240922"
+                  timestampString = "541340829.155692"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "341"
@@ -378,7 +362,7 @@
                   moduleName = "Agent Payzan"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/BankDetailsViewController.swift"
-                  timestampString = "541145883.246416"
+                  timestampString = "541340829.161029"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "358"
@@ -393,7 +377,7 @@
                   moduleName = "Agent Payzan"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/BankDetailsViewController.swift"
-                  timestampString = "541145883.248713"
+                  timestampString = "541340829.1632611"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "358"
@@ -554,11 +538,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Agent Payzan/RequestsViewController.swift"
-            timestampString = "541145367.216668"
+            timestampString = "541324347.868764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "905"
-            endingLineNumber = "905"
+            startingLineNumber = "908"
+            endingLineNumber = "908"
             landmarkName = "holdClicked(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -570,11 +554,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Agent Payzan/RequestsViewController.swift"
-            timestampString = "541145367.216668"
+            timestampString = "541324347.868764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "917"
-            endingLineNumber = "917"
+            startingLineNumber = "920"
+            endingLineNumber = "920"
             landmarkName = "holdAPICall(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -586,11 +570,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Agent Payzan/RequestsViewController.swift"
-            timestampString = "541145367.216668"
+            timestampString = "541324347.868764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "976"
-            endingLineNumber = "976"
+            startingLineNumber = "979"
+            endingLineNumber = "979"
             landmarkName = "holdAPICall(_:)"
             landmarkType = "7">
             <Locations>
@@ -602,11 +586,11 @@
                   moduleName = "Agent Payzan"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/RequestsViewController.swift"
-                  timestampString = "541145883.322404"
+                  timestampString = "541340829.218639"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "976"
-                  endingLineNumber = "976"
+                  startingLineNumber = "979"
+                  endingLineNumber = "979"
                   offsetFromSymbolStart = "5576">
                </Location>
                <Location
@@ -617,11 +601,11 @@
                   moduleName = "Agent Payzan"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/RequestsViewController.swift"
-                  timestampString = "541145883.324698"
+                  timestampString = "541340829.221172"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "976"
-                  endingLineNumber = "976"
+                  startingLineNumber = "979"
+                  endingLineNumber = "979"
                   offsetFromSymbolStart = "32">
                </Location>
             </Locations>
@@ -634,11 +618,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Agent Payzan/RequestsViewController.swift"
-            timestampString = "541145367.216668"
+            timestampString = "541324347.868764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "993"
-            endingLineNumber = "993"
+            startingLineNumber = "996"
+            endingLineNumber = "996"
             landmarkName = "holdAPICall(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -650,11 +634,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Agent Payzan/RequestsViewController.swift"
-            timestampString = "541145367.216668"
+            timestampString = "541324347.868764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1109"
-            endingLineNumber = "1109"
+            startingLineNumber = "1112"
+            endingLineNumber = "1112"
             landmarkName = "holdAPICall(_:)"
             landmarkType = "7">
             <Locations>
@@ -666,11 +650,11 @@
                   moduleName = "Agent Payzan"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/RequestsViewController.swift"
-                  timestampString = "541145883.334621"
+                  timestampString = "541340829.231169"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1109"
-                  endingLineNumber = "1109"
+                  startingLineNumber = "1112"
+                  endingLineNumber = "1112"
                   offsetFromSymbolStart = "5808">
                </Location>
                <Location
@@ -681,11 +665,11 @@
                   moduleName = "Agent Payzan"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/RequestsViewController.swift"
-                  timestampString = "541145883.33691"
+                  timestampString = "541340829.233501"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1109"
-                  endingLineNumber = "1109"
+                  startingLineNumber = "1112"
+                  endingLineNumber = "1112"
                   offsetFromSymbolStart = "24">
                </Location>
             </Locations>
@@ -698,11 +682,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Agent Payzan/RequestsViewController.swift"
-            timestampString = "541145367.216668"
+            timestampString = "541324347.868764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1111"
-            endingLineNumber = "1111"
+            startingLineNumber = "1114"
+            endingLineNumber = "1114"
             landmarkName = "holdAPICall(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -714,11 +698,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Agent Payzan/RequestsViewController.swift"
-            timestampString = "541145367.216668"
+            timestampString = "541324347.868764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1036"
-            endingLineNumber = "1036"
+            startingLineNumber = "1039"
+            endingLineNumber = "1039"
             landmarkName = "holdAPICall(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -730,23 +714,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Agent Payzan/RequestsViewController.swift"
-            timestampString = "541145367.216668"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1066"
-            endingLineNumber = "1066"
-            landmarkName = "holdAPICall(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Agent Payzan/RequestsViewController.swift"
-            timestampString = "541145367.216668"
+            timestampString = "541324347.868764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1069"
@@ -761,12 +729,28 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Agent Payzan/AddDocumentViewController.swift"
-            timestampString = "541058868.925671"
+            filePath = "Agent Payzan/RequestsViewController.swift"
+            timestampString = "541324347.868764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1219"
-            endingLineNumber = "1219"
+            startingLineNumber = "1072"
+            endingLineNumber = "1072"
+            landmarkName = "holdAPICall(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/AddDocumentViewController.swift"
+            timestampString = "541340137.9887609"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1220"
+            endingLineNumber = "1220"
             landmarkName = "closeBtnClicked(sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -778,11 +762,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Agent Payzan/AddDocumentViewController.swift"
-            timestampString = "541058868.925671"
+            timestampString = "541340137.9887609"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1224"
-            endingLineNumber = "1224"
+            startingLineNumber = "1225"
+            endingLineNumber = "1225"
             landmarkName = "closeBtnClicked(sender:)"
             landmarkType = "7">
             <Locations>
@@ -794,11 +778,11 @@
                   moduleName = "Agent Payzan"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/AddDocumentViewController.swift"
-                  timestampString = "541145883.364346"
+                  timestampString = "541340829.2601579"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1224"
-                  endingLineNumber = "1224"
+                  startingLineNumber = "1225"
+                  endingLineNumber = "1225"
                   offsetFromSymbolStart = "500">
                </Location>
                <Location
@@ -809,11 +793,11 @@
                   moduleName = "Agent Payzan"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/AddDocumentViewController.swift"
-                  timestampString = "541145883.366632"
+                  timestampString = "541340829.262369"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1226"
-                  endingLineNumber = "1226"
+                  startingLineNumber = "1227"
+                  endingLineNumber = "1227"
                   offsetFromSymbolStart = "36">
                </Location>
             </Locations>
@@ -826,11 +810,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Agent Payzan/AddDocumentViewController.swift"
-            timestampString = "541058868.925671"
+            timestampString = "541340137.9887609"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1153"
-            endingLineNumber = "1153"
+            startingLineNumber = "1154"
+            endingLineNumber = "1154"
             landmarkName = "image(_:didFinishSavingWithError:contextInfo:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -842,11 +826,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Agent Payzan/AddDocumentViewController.swift"
-            timestampString = "541058674.855601"
+            timestampString = "541340137.9887609"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "882"
-            endingLineNumber = "882"
+            startingLineNumber = "883"
+            endingLineNumber = "883"
             landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -893,22 +877,6 @@
             timestampString = "541145367.216668"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "673"
-            endingLineNumber = "673"
-            landmarkName = "searchBarCancelButtonClicked(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Agent Payzan/InProgressViewController.swift"
-            timestampString = "541145367.216668"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
             startingLineNumber = "138"
             endingLineNumber = "138"
             landmarkName = "viewWillAppear(_:)"
@@ -922,11 +890,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Agent Payzan/InProgressViewController.swift"
-            timestampString = "541145367.216668"
+            timestampString = "541324347.868764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "164"
-            endingLineNumber = "164"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
             landmarkName = "loadData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -938,11 +906,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Agent Payzan/InProgressViewController.swift"
-            timestampString = "541145367.216668"
+            timestampString = "541324347.868764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "296"
-            endingLineNumber = "296"
+            startingLineNumber = "299"
+            endingLineNumber = "299"
             landmarkName = "getAgentRequestInfoAPICall()"
             landmarkType = "7">
          </BreakpointContent>
@@ -954,11 +922,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Agent Payzan/InProgressViewController.swift"
-            timestampString = "541145367.216668"
+            timestampString = "541324347.868764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "610"
-            endingLineNumber = "610"
+            startingLineNumber = "613"
+            endingLineNumber = "613"
             landmarkName = "updateSearchResults(for:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -970,11 +938,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Agent Payzan/InProgressViewController.swift"
-            timestampString = "541145367.216668"
+            timestampString = "541324347.868764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "626"
-            endingLineNumber = "626"
+            startingLineNumber = "629"
+            endingLineNumber = "629"
             landmarkName = "updateSearchResults(for:)"
             landmarkType = "7">
             <Locations>
@@ -986,11 +954,11 @@
                   moduleName = "Agent Payzan"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/InProgressViewController.swift"
-                  timestampString = "541145883.442679"
+                  timestampString = "541340829.3066649"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "628"
-                  endingLineNumber = "628"
+                  startingLineNumber = "631"
+                  endingLineNumber = "631"
                   offsetFromSymbolStart = "60">
                </Location>
                <Location
@@ -1001,11 +969,11 @@
                   moduleName = "Agent Payzan"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/InProgressViewController.swift"
-                  timestampString = "541145883.445833"
+                  timestampString = "541340829.308887"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "630"
-                  endingLineNumber = "630"
+                  startingLineNumber = "633"
+                  endingLineNumber = "633"
                   offsetFromSymbolStart = "16">
                </Location>
             </Locations>
@@ -1018,11 +986,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Agent Payzan/InProgressViewController.swift"
-            timestampString = "541145367.216668"
+            timestampString = "541324347.868764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "209"
-            endingLineNumber = "209"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
             landmarkName = "getAgentRequestInfoAPICall()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1034,11 +1002,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Agent Payzan/InProgressViewController.swift"
-            timestampString = "541145367.216668"
+            timestampString = "541324347.868764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "236"
-            endingLineNumber = "236"
+            startingLineNumber = "239"
+            endingLineNumber = "239"
             landmarkName = "getAgentRequestInfoAPICall()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1050,11 +1018,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Agent Payzan/InProgressViewController.swift"
-            timestampString = "541145367.216668"
+            timestampString = "541324347.868764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "242"
-            endingLineNumber = "242"
+            startingLineNumber = "245"
+            endingLineNumber = "245"
             landmarkName = "getAgentRequestInfoAPICall()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1066,11 +1034,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Agent Payzan/InProgressViewController.swift"
-            timestampString = "541145367.216668"
+            timestampString = "541324347.868764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "267"
-            endingLineNumber = "267"
+            startingLineNumber = "270"
+            endingLineNumber = "270"
             landmarkName = "getAgentRequestInfoAPICall()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1082,11 +1050,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Agent Payzan/InProgressViewController.swift"
-            timestampString = "541145367.216668"
+            timestampString = "541324347.868764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "185"
-            endingLineNumber = "185"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
             landmarkName = "getAgentRequestInfoAPICall()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1098,11 +1066,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Agent Payzan/InProgressViewController.swift"
-            timestampString = "541145367.216668"
+            timestampString = "541324347.868764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "174"
-            endingLineNumber = "174"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
             landmarkName = "getAgentRequestInfoAPICall()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1114,11 +1082,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Agent Payzan/InProgressViewController.swift"
-            timestampString = "541145367.216668"
+            timestampString = "541324347.868764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "400"
-            endingLineNumber = "400"
+            startingLineNumber = "403"
+            endingLineNumber = "403"
             landmarkName = "tableView(_:willDisplay:forRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1130,12 +1098,635 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Agent Payzan/InProgressViewController.swift"
-            timestampString = "541145367.216668"
+            timestampString = "541324347.868764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "395"
-            endingLineNumber = "395"
+            startingLineNumber = "398"
+            endingLineNumber = "398"
             landmarkName = "tableView(_:willDisplay:forRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/AddDocumentViewController.swift"
+            timestampString = "541340137.9887609"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1090"
+            endingLineNumber = "1090"
+            landmarkName = "downloadBtnClicked(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/AppDelegate.swift"
+            timestampString = "541147344.718089"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/AddDocumentViewController.swift"
+            timestampString = "541340137.9887609"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1426"
+            endingLineNumber = "1426"
+            landmarkName = "UpdateAgentRequestAPICall()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Agent_Payzan.AddDocumentViewController.UpdateAgentRequestAPICall () -&gt; ()"
+                  moduleName = "Agent Payzan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/AddDocumentViewController.swift"
+                  timestampString = "541340829.357684"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1426"
+                  endingLineNumber = "1426"
+                  offsetFromSymbolStart = "1560">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Agent_Payzan.AddDocumentViewController.(UpdateAgentRequestAPICall () -&gt; ()).(closure #1)"
+                  moduleName = "Agent Payzan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/AddDocumentViewController.swift"
+                  timestampString = "541340829.359887"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1427"
+                  endingLineNumber = "1427"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Agent_Payzan.AddDocumentViewController.(UpdateAgentRequestAPICall () -&gt; ()).(closure #1).(closure #1)"
+                  moduleName = "Agent Payzan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/AddDocumentViewController.swift"
+                  timestampString = "541340829.3620681"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1426"
+                  endingLineNumber = "1426"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/AddDocumentViewController.swift"
+            timestampString = "541340137.9887609"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1432"
+            endingLineNumber = "1432"
+            landmarkName = "UpdateAgentRequestAPICall()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/ServiceController.swift"
+            timestampString = "541333432.383829"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "254"
+            endingLineNumber = "254"
+            landmarkName = "requestPOSTURL(_:strURL:postParams:postHeaders:successHandler:failureHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/ServiceController.swift"
+            timestampString = "541333445.49134"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "324"
+            endingLineNumber = "324"
+            landmarkName = "requestPOSTURL(_:strURL:postParams:postHeaders:successHandler:failureHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Agent_Payzan.ServiceController.requestPOSTURL (__ObjC.UIViewController, strURL : __ObjC.NSString, postParams : __ObjC.NSDictionary, postHeaders : __ObjC.NSDictionary, successHandler : (Any) -&gt; (), failureHandler : (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "Agent Payzan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/ServiceController.swift"
+                  timestampString = "541340829.376982"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "324"
+                  endingLineNumber = "324"
+                  offsetFromSymbolStart = "4768">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Agent_Payzan.ServiceController.(requestPOSTURL (__ObjC.UIViewController, strURL : __ObjC.NSString, postParams : __ObjC.NSDictionary, postHeaders : __ObjC.NSDictionary, successHandler : (Any) -&gt; (), failureHandler : (Swift.String) -&gt; ()) -&gt; ()).(closure #3)"
+                  moduleName = "Agent Payzan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/ServiceController.swift"
+                  timestampString = "541340829.379225"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "326"
+                  endingLineNumber = "326"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/ServiceController.swift"
+            timestampString = "541333451.107927"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "333"
+            endingLineNumber = "333"
+            landmarkName = "requestPOSTURL(_:strURL:postParams:postHeaders:successHandler:failureHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/ServiceController.swift"
+            timestampString = "541333468.269246"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "365"
+            endingLineNumber = "365"
+            landmarkName = "requestPOSTURL(_:strURL:postParams:postHeaders:successHandler:failureHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/AddDocumentViewController.swift"
+            timestampString = "541340137.9887609"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1435"
+            endingLineNumber = "1435"
+            landmarkName = "UpdateAgentRequestAPICall()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/AddDocumentViewController.swift"
+            timestampString = "541340137.9887609"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1446"
+            endingLineNumber = "1446"
+            landmarkName = "UpdateAgentRequestAPICall()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Agent_Payzan.AddDocumentViewController.(UpdateAgentRequestAPICall () -&gt; ()).(closure #1).(closure #1)"
+                  moduleName = "Agent Payzan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/AddDocumentViewController.swift"
+                  timestampString = "541340829.3984179"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1446"
+                  endingLineNumber = "1446"
+                  offsetFromSymbolStart = "1120">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Agent_Payzan.AddDocumentViewController.(UpdateAgentRequestAPICall () -&gt; ()).(closure #1).(closure #1).(closure #1)"
+                  moduleName = "Agent Payzan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/AddDocumentViewController.swift"
+                  timestampString = "541340829.400707"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1448"
+                  endingLineNumber = "1448"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/AddDocumentViewController.swift"
+            timestampString = "541340137.9887609"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1352"
+            endingLineNumber = "1352"
+            landmarkName = "finishBtnAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/AddDocumentViewController.swift"
+            timestampString = "541340137.9887609"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1358"
+            endingLineNumber = "1358"
+            landmarkName = "finishBtnAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/AddDocumentViewController.swift"
+            timestampString = "541340137.9887609"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1405"
+            endingLineNumber = "1405"
+            landmarkName = "UpdateAgentRequestAPICall()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/AddDocumentViewController.swift"
+            timestampString = "541340137.9887609"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1415"
+            endingLineNumber = "1415"
+            landmarkName = "UpdateAgentRequestAPICall()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/AddDocumentViewController.swift"
+            timestampString = "541340137.9887609"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/NewAgentRegistrationViewController.swift"
+            timestampString = "541339515.332532"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/NewAgentRegistrationViewController.swift"
+            timestampString = "541339825.517941"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4273"
+            endingLineNumber = "4273"
+            landmarkName = "nextBtnClicked()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/NewAgentRegistrationViewController.swift"
+            timestampString = "541340349.307133"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4211"
+            endingLineNumber = "4211"
+            landmarkName = "nextBtnClicked()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/NewAgentRegistrationViewController.swift"
+            timestampString = "541340356.970556"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4341"
+            endingLineNumber = "4341"
+            landmarkName = "nextBtnClicked()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/NewAgentRegistrationViewController.swift"
+            timestampString = "541341143.296982"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4348"
+            endingLineNumber = "4348"
+            landmarkName = "nextBtnClicked()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Agent_Payzan.NewAgentRegistrationViewController.(nextBtnClicked () -&gt; ()).(closure #1).(closure #1)"
+                  moduleName = "Agent Payzan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/NewAgentRegistrationViewController.swift"
+                  timestampString = "541341143.30814"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4349"
+                  endingLineNumber = "4349"
+                  offsetFromSymbolStart = "3492">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Agent_Payzan.NewAgentRegistrationViewController.(nextBtnClicked () -&gt; ()).(closure #1).(closure #1).(closure #1)"
+                  moduleName = "Agent Payzan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/NewAgentRegistrationViewController.swift"
+                  timestampString = "541341143.310497"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4352"
+                  endingLineNumber = "4352"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/InProgressViewController.swift"
+            timestampString = "541341454.034476"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "683"
+            endingLineNumber = "683"
+            landmarkName = "addClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/InProgressViewController.swift"
+            timestampString = "541341458.146487"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "716"
+            endingLineNumber = "716"
+            landmarkName = "addClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/NewAgentRegistrationViewController.swift"
+            timestampString = "541341545.138388"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4459"
+            endingLineNumber = "4459"
+            landmarkName = "updateBtnClicked(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/NewAgentRegistrationViewController.swift"
+            timestampString = "541341547.680524"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4465"
+            endingLineNumber = "4465"
+            landmarkName = "updateButtonAPICall()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/NewAgentRegistrationViewController.swift"
+            timestampString = "541341601.599504"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4566"
+            endingLineNumber = "4566"
+            landmarkName = "updateButtonAPICall()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/NewAgentRegistrationViewController.swift"
+            timestampString = "541341643.605903"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4506"
+            endingLineNumber = "4506"
+            landmarkName = "updateButtonAPICall()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/NewAgentRegistrationViewController.swift"
+            timestampString = "541341672.733803"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4562"
+            endingLineNumber = "4562"
+            landmarkName = "updateButtonAPICall()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Agent_Payzan.NewAgentRegistrationViewController.(updateButtonAPICall () -&gt; ()).(closure #1).(closure #1)"
+                  moduleName = "Agent Payzan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/NewAgentRegistrationViewController.swift"
+                  timestampString = "541341672.965893"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4562"
+                  endingLineNumber = "4562"
+                  offsetFromSymbolStart = "1120">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Agent_Payzan.NewAgentRegistrationViewController.(updateButtonAPICall () -&gt; ()).(closure #1).(closure #1).(closure #1)"
+                  moduleName = "Agent Payzan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/owner/Desktop/Payzan%20Executive/Agent%20Payzan/NewAgentRegistrationViewController.swift"
+                  timestampString = "541341672.969089"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4564"
+                  endingLineNumber = "4564"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Agent Payzan/NewAgentRegistrationViewController.swift"
+            timestampString = "541341686.276044"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4531"
+            endingLineNumber = "4531"
+            landmarkName = "updateButtonAPICall()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

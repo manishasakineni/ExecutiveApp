@@ -1,4 +1,4 @@
-//
+ //
 //  InProgressViewController.swift
 //  Agent Payzan
 //
@@ -160,6 +160,9 @@ class InProgressViewController: UIViewController,UITableViewDataSource,UITableVi
     func loadData() {
         //code to execute during refresher
         //Call this to stop refresher
+        
+        self.filteredAgentArr.removeAll()
+        self.agentDetailsArray.removeAll()
         
         getAgentRequestInfoAPICall()
     }

@@ -46,18 +46,19 @@ class MapTableViewCell: UITableViewCell,MKMapViewDelegate,CLLocationManagerDeleg
 
     override func awakeFromNib() {
         super.awakeFromNib()
-   
+
+        
 //      lanLatTF.borderStyle = .roundedRect
 //        
-//        if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiom.phone) {
-//            
-//            texfieldHeight.constant = 30
-//        }
-//            
-//        else{
-//            
-//            texfieldHeight.constant = 40
-//        }
+        if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiom.phone) {
+
+            texfieldHeight.constant = 60
+        }
+            
+        else{
+            
+            texfieldHeight.constant = 70
+        }
         
     }
     

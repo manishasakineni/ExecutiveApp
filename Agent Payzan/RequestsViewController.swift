@@ -163,6 +163,9 @@ class RequestsViewController: UIViewController,UITableViewDelegate,UITableViewDa
         //code to execute during refresher
         //Call this to stop refresher
         
+        self.filteredAgentArr.removeAll()
+        self.agentDetailsArray.removeAll()
+        
         getAgentRequestInfoAPICall()
         
     }

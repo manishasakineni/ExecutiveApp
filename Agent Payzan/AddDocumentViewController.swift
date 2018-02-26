@@ -154,6 +154,7 @@ class AddDocumentViewController: UIViewController,UIImagePickerControllerDelegat
             
             print("defaults savedString: \(aspNetUserId)")
         }
+        
         if let agetReqid = defaults.string(forKey: "AgentRequestId") {
             
             agentReqID = agetReqid
@@ -1104,7 +1105,7 @@ class AddDocumentViewController: UIViewController,UIImagePickerControllerDelegat
             
             if fileExt == ".png" || fileExt == ".jpg"{
                 
-                let newString = imageUrl.replacingOccurrences(of: "\\", with: "//", options: .backwards, range: nil)
+                let newString = imageUrl.replacingOccurrences(of: "\\", with: "/", options: .backwards, range: nil)
                 
                 print("filteredUrlString:\(newString)")
                 
@@ -1121,7 +1122,7 @@ class AddDocumentViewController: UIViewController,UIImagePickerControllerDelegat
                 
                 
                 
-                let docString = imageUrl.replacingOccurrences(of: "\\", with: "//", options: .backwards, range: nil)
+                let docString = imageUrl.replacingOccurrences(of: "\\", with: "/", options: .backwards, range: nil)
                 
                 if let url = URL(string: docString) {
                     

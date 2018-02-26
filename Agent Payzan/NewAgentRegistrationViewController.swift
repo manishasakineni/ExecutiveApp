@@ -2221,12 +2221,12 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
                     
                     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiom.phone) {
                         
-                        return 60
+                        return 265
                     }
                         
                     else {
                         
-                        return 70
+                        return 275
                     }
                     
                 }
@@ -2263,12 +2263,12 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
             
             if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiom.phone) {
             
-            return 60
+            return 265
         }
             
             else {
             
-            return 70
+            return 275
             }
         
         }
@@ -3170,7 +3170,7 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
     
 //MARK: - Mapview delegate methods
     
-/*        func mapView(_ mapView: MKMapView, didUpdate userLocation: MKUserLocation) {
+        func mapView(_ mapView: MKMapView, didUpdate userLocation: MKUserLocation) {
             
             var rowNumber : Int = 0
             
@@ -3368,7 +3368,7 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
                             
         }
  
- */
+
     
     func getCurrentLocation(_ sender : UIButton){
         
@@ -4338,6 +4338,7 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
                             
                             UserDefaults.standard.set(personalResult?.AgentId, forKey: "AgentId")
                             UserDefaults.standard.set(personalResult?.AspNetUserId, forKey: "AspNetUserId")
+                            UserDefaults.standard.set(personalResult?.AgentRequestId, forKey: "AgentRequestId")
                             
                             UserDefaults.standard.synchronize()
                             

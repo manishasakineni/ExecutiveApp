@@ -16,19 +16,21 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MapTableViewCell" rowHeight="60" id="KGk-i7-Jjw" customClass="MapTableViewCell" customModule="Agent_Payzan" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MapTableViewCell" rowHeight="245" id="KGk-i7-Jjw" customClass="MapTableViewCell" customModule="Agent_Payzan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="245"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="245"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <mapView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OiI-6C-VHN">
-                        <rect key="frame" x="10" y="61" width="300" height="17"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OiI-6C-VHN">
+                        <rect key="frame" x="10" y="70" width="300" height="117"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="117" id="jSh-QI-3t7"/>
+                        </constraints>
                     </mapView>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DBb-Ah-IMZ">
-                        <rect key="frame" x="166" y="9.5" width="146" height="40"/>
+                        <rect key="frame" x="166" y="194.5" width="146" height="40"/>
                         <color key="backgroundColor" red="0.50196078431372548" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="40" id="FfD-S3-0C5"/>
@@ -44,10 +46,12 @@
                             <userDefinedRuntimeAttribute type="string" keyPath="localizeKey" value="app.Next"/>
                         </userDefinedRuntimeAttributes>
                     </button>
-                    <textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Location on Map" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pJd-w5-NVn" customClass="AkiraTextField" customModule="TextFieldEffects">
-                        <rect key="frame" x="10" y="1" width="300" height="48"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Location on Map" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pJd-w5-NVn" customClass="AkiraTextField" customModule="TextFieldEffects">
+                        <rect key="frame" x="10" y="1" width="300" height="50"/>
                         <color key="tintColor" red="0.55294117649999996" green="0.12549019610000001" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="VqZ-tB-TAy"/>
+                        </constraints>
                         <nil key="textColor"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <textInputTraits key="textInputTraits"/>
@@ -65,7 +69,7 @@
                         </userDefinedRuntimeAttributes>
                     </textField>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pbR-bh-8Tp">
-                        <rect key="frame" x="12" y="9.5" width="146" height="40"/>
+                        <rect key="frame" x="12" y="194.5" width="146" height="40"/>
                         <color key="backgroundColor" red="0.50196078431372548" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="40" id="7SF-Qa-TPB"/>
@@ -91,7 +95,7 @@
                         </state>
                     </button>
                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n8x-nD-5sF">
-                        <rect key="frame" x="166" y="9.5" width="146" height="40"/>
+                        <rect key="frame" x="166" y="194.5" width="146" height="40"/>
                         <color key="backgroundColor" red="0.50196078431372548" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="40" id="snF-NW-YxJ"/>
@@ -110,16 +114,23 @@
                 </subviews>
                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 <constraints>
+                    <constraint firstItem="pJd-w5-NVn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="6oh-HU-1hx"/>
                     <constraint firstAttribute="trailing" secondItem="DBb-Ah-IMZ" secondAttribute="trailing" constant="8" id="AQn-jP-ufD"/>
+                    <constraint firstAttribute="trailing" secondItem="pJd-w5-NVn" secondAttribute="trailing" constant="10" id="BJS-Yw-nZo"/>
                     <constraint firstAttribute="trailing" secondItem="n8x-nD-5sF" secondAttribute="trailing" constant="8" id="JG7-0S-xbQ"/>
+                    <constraint firstItem="OiI-6C-VHN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Jlu-r0-X2N"/>
                     <constraint firstItem="pbR-bh-8Tp" firstAttribute="width" secondItem="DBb-Ah-IMZ" secondAttribute="width" id="Lp5-Do-FeR"/>
                     <constraint firstItem="DBb-Ah-IMZ" firstAttribute="leading" secondItem="pbR-bh-8Tp" secondAttribute="trailing" constant="8" id="MlY-ZY-cCR"/>
                     <constraint firstAttribute="bottom" secondItem="DBb-Ah-IMZ" secondAttribute="bottom" constant="10" id="NZZ-FQ-GWZ"/>
                     <constraint firstItem="n8x-nD-5sF" firstAttribute="width" secondItem="pbR-bh-8Tp" secondAttribute="width" id="PbI-zS-LwN"/>
+                    <constraint firstItem="n8x-nD-5sF" firstAttribute="top" secondItem="OiI-6C-VHN" secondAttribute="bottom" constant="7.5" id="VTJ-KX-W2o"/>
+                    <constraint firstItem="OiI-6C-VHN" firstAttribute="top" secondItem="pJd-w5-NVn" secondAttribute="bottom" constant="19" id="WwG-1m-q7R"/>
+                    <constraint firstItem="pJd-w5-NVn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="1" id="YGa-qv-QGZ"/>
                     <constraint firstAttribute="bottom" secondItem="pbR-bh-8Tp" secondAttribute="bottom" constant="10" id="Zbf-Hn-hU3"/>
                     <constraint firstItem="pbR-bh-8Tp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="htn-63-Ufs"/>
                     <constraint firstAttribute="bottom" secondItem="n8x-nD-5sF" secondAttribute="bottom" constant="10" id="nTi-iv-04u"/>
                     <constraint firstItem="n8x-nD-5sF" firstAttribute="height" secondItem="pbR-bh-8Tp" secondAttribute="height" id="ne1-ev-Mkw"/>
+                    <constraint firstAttribute="trailing" secondItem="OiI-6C-VHN" secondAttribute="trailing" constant="10" id="sy7-MI-Jqi"/>
                     <constraint firstItem="n8x-nD-5sF" firstAttribute="leading" secondItem="pbR-bh-8Tp" secondAttribute="trailing" constant="8" id="tra-6g-2Kr"/>
                     <constraint firstItem="pbR-bh-8Tp" firstAttribute="height" secondItem="DBb-Ah-IMZ" secondAttribute="height" id="vEF-g9-ePM"/>
                 </constraints>
@@ -131,10 +142,11 @@
                 <outlet property="lanLatTF" destination="pJd-w5-NVn" id="PUn-hG-9Ac"/>
                 <outlet property="nextBtnHeight" destination="FfD-S3-0C5" id="kHU-4y-mE3"/>
                 <outlet property="nextClicked" destination="DBb-Ah-IMZ" id="ZcJ-Gu-Zj8"/>
+                <outlet property="texfieldHeight" destination="VqZ-tB-TAy" id="ntR-z3-2fO"/>
                 <outlet property="updateBtn" destination="n8x-nD-5sF" id="DtC-rX-7Yt"/>
                 <outlet property="userMapview" destination="OiI-6C-VHN" id="T3D-aa-3zr"/>
             </connections>
-            <point key="canvasLocation" x="-224" y="-30.5"/>
+            <point key="canvasLocation" x="-224" y="61.5"/>
         </tableViewCell>
     </objects>
 </document>
