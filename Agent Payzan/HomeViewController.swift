@@ -316,6 +316,8 @@ class HomeViewController: UIViewController,UIScrollViewDelegate {
         
                 let newAgentVC = self.storyboard?.instantiateViewController(withIdentifier: "newAgentVC") as? NewAgentRegistrationViewController
         
+                 newAgentVC?.directAgentString = "directAgent"
+        
                 self.navigationController?.pushViewController(newAgentVC!, animated: true)
         
     }

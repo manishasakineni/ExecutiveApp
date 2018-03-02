@@ -748,6 +748,7 @@ class InProgressViewController: UIViewController,UITableViewDataSource,UITableVi
             newAgentVC?.provinceID = provinceId!
             newAgentVC?.districtID = districtId!
             newAgentVC?.mandalID = mandalId!
+            newAgentVC?.directAgentString = "notDirectAgent"
         
         
         

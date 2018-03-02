@@ -13,8 +13,12 @@ import TextFieldEffects
 
 class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,UIPickerViewDelegate,UIPickerViewDataSource,MKMapViewDelegate,CLLocationManagerDelegate,UITextFieldDelegate {
     
+    var appDelegate = AppDelegate()
+    
     let todayDate = NSDate()
     var alertTag = Int()
+    
+    var directAgentString         : String = ""
     
     var newVC1           : Int    = 0
     var userName         : String = ""
@@ -3459,7 +3463,7 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
             }
         }
         
-       else if activeTextField.tag == 12{
+        if activeTextField.tag == 12{
             
             if pickerData.count > row {
         selectedProvinceStr = pickerData[row]
@@ -3481,7 +3485,7 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
              getDistrictsAPICall()
         }
         
-        else if activeTextField.tag == 13{
+         if activeTextField.tag == 13{
             
             if pickerData.count > row {
                 
@@ -3504,7 +3508,7 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
                    }
             
             
-        else if activeTextField.tag == 14{
+         if activeTextField.tag == 14{
             
             if pickerData.count > row {
                 
@@ -3527,7 +3531,7 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
             
            }
         
-        else if activeTextField.tag == 15{
+         if activeTextField.tag == 15{
             
             if pickerData.count > row {
                 
@@ -3559,7 +3563,7 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
             
         }
         
-        else if activeTextField.tag == 16{
+         if activeTextField.tag == 16{
             
             if pickerData.count > row {
                 
@@ -3627,7 +3631,7 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
                 }
             }
                 
-            else if activeTextField.tag == 13{
+             if activeTextField.tag == 13{
                 
                 if pickerData.count > row {
                     selectedProvinceStr = pickerData[row]
@@ -3650,7 +3654,7 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
                 getDistrictsAPICall()
             }
                 
-            else if activeTextField.tag == 14{
+             if activeTextField.tag == 14{
                 
                 if pickerData.count > row {
                     
@@ -3673,7 +3677,7 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
             }
                 
                 
-            else if activeTextField.tag == 15{
+             if activeTextField.tag == 15{
                 
                 if pickerData.count > row {
                     
@@ -3696,7 +3700,7 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
                 
             }
                 
-            else if activeTextField.tag == 16{
+             if activeTextField.tag == 16{
                 
                 if pickerData.count > row {
                     
@@ -3728,7 +3732,7 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
                 
             }
                 
-            else if activeTextField.tag == 17{
+             if activeTextField.tag == 17{
                 
                 if pickerData.count > row {
                     
@@ -4270,10 +4274,22 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
             UserDefaults.standard.set(password, forKey: "password")
             UserDefaults.standard.set(userName, forKey: "userName")
             
-            let agentRequestId = UserDefaults.standard.value(forKey: "AgentRequestId")
-
-            UserDefaults.standard.synchronize()
+            var agentRequestId = Int()
             
+            if directAgentString == "directAgent"{
+                
+                agentRequestId = 0
+            
+            
+            }
+            
+            else {
+            
+            
+                agentRequestId = UserDefaults.standard.value(forKey: "AgentRequestId") as! Int
+                
+                UserDefaults.standard.synchronize()
+            }
             
             let PersonalInfoDict =    [
                 
@@ -4353,11 +4369,11 @@ class NewAgentRegistrationViewController: UIViewController,UITableViewDelegate,U
                                 
                             })
                             
-                            
-                            
-                            
+                        
+    //self.appDelegate.window?.makeToast(successMsg, duration:kToastDuration, position:CSToastPositionCenter)
                             
                         }
+                            
                         else if statusCode == false{
                             
                             let failMsg = respVO.EndUserMessage
